@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{B2E060E5-E098-4660-B429-C1221F695380}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45646.662337963" objectName="Aliases.browser.pageQuotationMagayaDigitalFreigh.sectionQwyk.textnodeOpen" objectLeft="250" objectTop="567" objectRight="306" objectBottom="589" clickPointX="285" clickPointY="576" imageFileName="tcvi118678842156400.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45646.6623726852" objectName="Aliases.browser.pageQuotationMagayaDigitalFreigh2.sectionQwyk.button" objectLeft="1678" objectTop="225" objectRight="1718" objectBottom="261" clickPointX="1697" clickPointY="246" imageFileName="tcvi118679115656402.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45646.6623958333" objectName="Aliases.browser.pageQuotationMagayaDigitalFreigh2.sectionQwyk.buttonCloseQuotation" objectLeft="1535" objectTop="302" objectRight="1717" objectBottom="332" clickPointX="1649" clickPointY="314" imageFileName="tcvi118679284356403.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

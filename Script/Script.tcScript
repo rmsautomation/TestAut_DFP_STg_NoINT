@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Warning" key="{F6FA8F37-50ED-4379-99CB-31AE6CA36A6F}" path="Warning.js" />
+		<child name="VerifyDownloadLatestPDF" key="{87F28984-957C-4795-8DF1-F53B6809F48A}" path="VerifyDownloadLatestPDF.js" />
+		<child name="VerifyValues" key="{CA0C483C-E383-4662-927F-01B86B5D4894}" path="VerifyValues.js" />
+		<child name="VerifyDownloadTc9" key="{8A7F5F56-1E41-4A57-9E1F-5B33E71AEC07}" path="VerifyDownloadTc9.js" />
+		<child name="VerifyFilterShipmentsPortal" key="{29B75032-4BEC-4FA4-929D-23299A65C016}" path="VerifyFilterShipmentsPortal.js" />
+	</children>
+</Root>

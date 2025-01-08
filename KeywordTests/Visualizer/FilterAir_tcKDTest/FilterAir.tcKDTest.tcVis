@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{5DC53D4A-9316-4AA3-8814-4B7C8A1BB7EE}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45649.6208217593" objectName="Aliases.browser.pageMagayaDigitalFreightPortalHu.navQuotations.textnodeQuotations.linkQuotations.vgImg" objectLeft="15" objectTop="280" objectRight="33" objectBottom="294" clickPointX="16" clickPointY="290" imageFileName="tcvi1442393718191921.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45649.6208796296" objectName="Aliases.browser.pageQuotationMagayaDigitalFreigh2.sectionQwyk.formSystemId.textnode" objectLeft="946" objectTop="395" objectRight="959" objectBottom="402" clickPointX="959" clickPointY="396" imageFileName="tcvi1442399046191924.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45649.6209027778" objectName="Aliases.browser.pageQuotationMagayaDigitalFreigh2.textnodePrId2List.textnodeHubShipmentSearchFilters.panelAir" objectLeft="547" objectTop="425" objectRight="957" objectBottom="446" clickPointX="596" clickPointY="444" imageFileName="tcvi1442400890191925.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45649.6209143519" objectName="Aliases.browser.pageQuotationMagayaDigitalFreigh2.sectionQwyk.formSystemId.buttonSearch" objectLeft="1741" objectTop="432" objectRight="1812" objectBottom="468" clickPointX="1762" clickPointY="454" imageFileName="tcvi1442402000191926.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{A99E59B3-BA04-44B1-B33A-485B99F15A53}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45659.7614930556" objectName="Aliases.browser.pageMagaya.navDashboard.textnodeQuotations.linkQuotations.textnodeQuotations2" objectLeft="48" objectTop="223" objectRight="118" objectBottom="245" clickPointX="85" clickPointY="224" imageFileName="tcvi-1976446078189520.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45659.7615277778" objectName="Aliases.browser.pageMagaya.sectionMyPortal.buttonCreate" objectLeft="1500" objectTop="223" objectRight="1646" objectBottom="261" clickPointX="1563" clickPointY="245" imageFileName="tcvi-1976443281189521.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

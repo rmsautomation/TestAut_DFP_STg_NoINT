@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{25D9B0F7-6A44-4B6A-8F82-CDB3897A7E0C}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45660.5778587963" objectName="Aliases.browser.pageQuotationMagayaDigitalFreigh.sectionQwyk.formShipmentReference.buttonReset" objectLeft="1805" objectTop="750" objectRight="1868" objectBottom="786" clickPointX="1844" clickPointY="772" imageFileName="tcvi-1905914593142120.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45660.5778703704" objectName="Aliases.browser.pageQuotationMagayaDigitalFreigh.sectionQwyk.formShipmentReference.textnodeCustomer" objectLeft="534" objectTop="378" objectRight="934" objectBottom="412" clickPointX="734" clickPointY="403" imageFileName="tcvi-1905912625142121.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45660.577962963" objectName="Aliases.browser.pageQuotationMagayaDigitalFreigh.textnodePrId1List.textnodeCustomer4471Update.textnodeCustomer4471Update2" objectLeft="547" objectTop="490" objectRight="698" objectBottom="507" clickPointX="667" clickPointY="500" imageFileName="tcvi-1905905515142123.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="45660.5779861111" objectName="Aliases.browser.pageQuotationMagayaDigitalFreigh.sectionQwyk.formShipmentReference.buttonSearch" objectLeft="1726" objectTop="750" objectRight="1797" objectBottom="786" clickPointX="1761" clickPointY="774" imageFileName="tcvi-1905902906142124.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

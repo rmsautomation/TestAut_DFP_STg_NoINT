@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{7AA1D3B0-4AF3-49A0-8D19-2905001A0F56}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45659.7362962963" objectName="Aliases.browser.pageQuotationMagayaDigitalFreigh.navQuotations.textnodeQuotations.linkQuotations.textnode" objectLeft="16" objectTop="280" objectRight="32" objectBottom="294" clickPointX="26" clickPointY="292" imageFileName="tcvi-197862301587840.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45659.7364236111" objectName="Aliases.browser.pageQuotationMagayaDigitalFreigh2.sectionQwyk.buttonDownloadAPdfOfThisQuotatio" objectLeft="1774" objectTop="876" objectRight="1874" objectBottom="906" clickPointX="1799" clickPointY="894" imageFileName="tcvi-197861189087843.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45659.7363888889" objectName="Aliases.browser.pageQuotationMagayaDigitalFreigh2.sectionQwyk.paginator" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi-197861479687842.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{526CB4BF-9AEF-4E2B-8F81-234D485F3289}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45645.9062037037" objectName="Aliases.browser.pageMagaya.navDashboard.textnodeQuotations.linkQuotations" objectLeft="0" objectTop="211" objectRight="219" objectBottom="257" clickPointX="41" clickPointY="227" imageFileName="tcvi112146062595080.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45645.9062384259" objectName="Aliases.browser.pageMagaya.sectionMyPortal.formStatus.textboxFriendlyId" objectLeft="477" objectTop="277" objectRight="762" objectBottom="314" clickPointX="520" clickPointY="299" imageFileName="tcvi112146270395081.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45645.9062615741" objectName="Aliases.browser.pageMagaya.sectionMyPortal.formStatus.textboxFriendlyId" objectLeft="477" objectTop="277" objectRight="762" objectBottom="314" clickPointX="-1" clickPointY="-1" imageFileName="tcvi112146490695082.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="45645.9064351852" objectName="Aliases.browser.pageMagaya.sectionMyPortal.formStatus.buttonSearch" objectLeft="1497" objectTop="330" objectRight="1572" objectBottom="368" clickPointX="1556" clickPointY="348" imageFileName="tcvi112147985995086.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

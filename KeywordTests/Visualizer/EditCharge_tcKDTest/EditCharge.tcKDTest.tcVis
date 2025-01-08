@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{A7E13C6C-C899-4593-90A4-B06CEE83D02B}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45649.6537962963" objectName="Aliases.browser.pageQuotationMagayaDigitalFreigh2.sectionQwyk.sell_price" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi1445242890191921.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45649.6538310185" objectName="Aliases.browser.pageQuotationMagayaDigitalFreigh2.sectionQwyk.buttonDropdownbasic1" objectLeft="1671" objectTop="768" objectRight="1715" objectBottom="804" clickPointX="1694" clickPointY="783" imageFileName="tcvi1445245875191923.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45649.6538657407" objectName="Aliases.browser.pageQuotationMagayaDigitalFreigh2.sectionQwyk.buttonDropdownbasic12.buttonEdit" objectLeft="1672" objectTop="816" objectRight="1822" objectBottom="846" clickPointX="1732" clickPointY="830" imageFileName="tcvi1445248312191924.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

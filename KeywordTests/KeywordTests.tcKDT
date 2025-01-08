@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<folder name="Tests">
+			<folder name="HUB">
+				<folder name="HOME">
+					<child name="TC_17_QWYK_280_Hub_Home" key="{4F1A02E3-4F81-4D33-9A48-E3FA50684DBC}" path="TC_17_QWYK_280_Hub_Home.tcKDTest" />
+				</folder>
+				<folder name="QUOTATIONS">
+					<child name="TC_1_129_FCLOpen" key="{BFCFBD91-CDCE-4B76-8915-2C3475DE1BCE}" path="TC_1_129_FCLOpen.tcKDTest" />
+					<child name="TC_2_131_CreateCloseGround" key="{6C3D480A-5231-4525-99C6-8404682FE2D6}" path="TC_2_131_CreateCloseGround.tcKDTest" />
+					<child name="TC_3_132_CreateDraftAIR" key="{B694FD32-79B5-417A-84CD-C9E392D4C820}" path="TC_3_132_CreateDraftAIR.tcKDTest" />
+					<child name="TC_4_133_CreateOpenLCL" key="{075EB852-5730-4339-B609-4270E6727833}" path="TC_4_133_CreateOpenLCL.tcKDTest" />
+					<child name="TC_5_134_CreateOpenGroundLTL" key="{CF74DE7F-503A-4A72-96D1-C59E53E6F8D6}" path="TC_5_134_CreateOpenGroundLTL.tcKDTest" />
+					<child name="TC_6_FCL_DownloadCopyDelete" key="{BBE73549-4D4B-40E5-95A1-704AE71FF0B9}" path="TC_6_FCL_DownloadCopyDelete.tcKDTest" />
+					<child name="TC_7_139_Edit_Offer" key="{6716A5F4-11CF-46AD-A332-F57397215B76}" path="TC_7_139_Edit_Offer.tcKDTest" />
+					<child name="TC_8_142CreateOfferLCL" key="{ADBCF5A9-4532-4229-AC34-8D95242778F5}" path="TC_8_142CreateOfferLCL.tcKDTest" />
+					<child name="TC_9_158DownloadAllQuotations" key="{7AA1D3B0-4AF3-49A0-8D19-2905001A0F56}" path="TC_9_158DownloadAllQuotations.tcKDTest" />
+					<child name="TC_10_162_ChangeStatusToClose" key="{0745B0CC-C26D-4F81-BEE0-081E39E956EE}" path="TC_10_162_ChangeStatusToClose.tcKDTest" />
+				</folder>
+				<folder name="RADAR">
+					<child name="TC__18_QWYK_281_Hub_Radar" key="{820361AC-6884-4CA5-8F38-9B0CC6F971B6}" path="TC__18_QWYK_281_Hub_Radar.tcKDTest" />
+				</folder>
+				<folder name="SHIPMENTS">
+					<child name="TC_16_HubShipmentsNoINTFilters" key="{6490693A-59FC-410D-915B-6DEAC4D78BF0}" path="TC_16_HubShipmentsNoINTFilters.tcKDTest" />
+				</folder>
+			</folder>
+			<folder name="PORTAL">
+				<child name="TC_12_146_LCLBuyerRequested" key="{34EEFC08-4EF9-41EC-BF33-DC010692A71B}" path="TC_12_146_LCLBuyerRequested.tcKDTest" />
+				<child name="TC_13_149Ground_BuyerRequested" key="{E3BB478E-F1A6-444C-8469-3C2EE584A300}" path="TC_13_149Ground_BuyerRequested.tcKDTest" />
+				<child name="TC_14_150_LTLSellerRequested" key="{1D1FA025-1B9F-4981-A8A1-B05CB7C23AAF}" path="TC_14_150_LTLSellerRequested.tcKDTest" />
+				<child name="TC_15_152AIRBuyerRequested" key="{5595C67B-CAB3-41E6-823E-CC1E697CB772}" path="TC_15_152AIRBuyerRequested.tcKDTest" />
+				<child name="TC_11_145_FCLBuyerBooked" key="{FB1C6485-E4E7-48A1-BDFD-58177A023450}" path="TC_11_145_FCLBuyerBooked.tcKDTest" />
+			</folder>
+		</folder>
+		<folder name="Utils">
+			<folder name="HUB">
+				<folder name="QUOTATIONS">
+					<child name="CreateQuote" key="{7EF0590A-4303-4094-81F4-5BFBC2B733D0}" path="CreateQuote.tcKDTest" />
+					<child name="SelectFCL" key="{CE13E02C-FDBA-472C-B7EC-84A2C9BD6471}" path="SelectFCL.tcKDTest" />
+					<child name="Origin_Destination" key="{3DE55FBB-F77A-4AFB-96D6-D80FEF096DF8}" path="Origin_Destination.tcKDTest" />
+					<child name="Select40AndAdditionals" key="{A9BA6A41-BC97-4E5E-B9F9-AF5A0CF486F3}" path="Select40AndAdditionals.tcKDTest" />
+					<child name="PublishQuote" key="{B4085C81-08B0-4307-8FF4-84CEC2203CF1}" path="PublishQuote.tcKDTest" />
+					<child name="SelectCommodityUSD" key="{D0B83D11-A0D1-43F4-8696-62D8EFAE7A14}" path="SelectCommodityUSD.tcKDTest" />
+					<child name="SelectGround" key="{F07E3C69-76DE-4658-8F2F-3269B7BFC38A}" path="SelectGround.tcKDTest" />
+					<child name="SearchQuoteHub" key="{963F7C97-173A-4DE5-8164-58DBE9570C17}" path="SearchQuoteHub.tcKDTest" />
+					<child name="CloseQuote" key="{B2E060E5-E098-4660-B429-C1221F695380}" path="CloseQuote.tcKDTest" />
+					<child name="AddDimensions" key="{3D3212E0-392F-46B3-8723-7EBC95C8DA8F}" path="AddDimensions.tcKDTest" />
+					<child name="SelectAIR" key="{4211FFFE-589A-4CF8-B73F-A24A24D7889B}" path="SelectAIR.tcKDTest" />
+					<child name="SelectLCL" key="{3D6A98B9-35A4-4FEE-8DFB-F0BF2543B149}" path="SelectLCL.tcKDTest" />
+					<child name="SelectAdditionals" key="{64B1F46E-C8AA-4C34-95E4-DC3149E3E561}" path="SelectAdditionals.tcKDTest" />
+					<child name="SelectGroundLTL" key="{C1C4B14E-DFE1-497A-8235-FDB4A8B19B4A}" path="SelectGroundLTL.tcKDTest" />
+					<child name="OpenQuoteValues" key="{24F257C2-6538-49BA-B546-559E134D20BB}" path="OpenQuoteValues.tcKDTest" />
+					<child name="DownloadQuote" key="{AF898BE8-D10E-4BE7-B533-27D594187FA3}" path="DownloadQuote.tcKDTest" />
+					<child name="DeleteQuote" key="{EBFFCB42-D9D5-4E06-A1C3-864650FC18F4}" path="DeleteQuote.tcKDTest" />
+					<child name="CopyQuote" key="{18C38883-720A-4687-B569-A7595067422A}" path="CopyQuote.tcKDTest" />
+					<child name="EditCharge" key="{A7E13C6C-C899-4593-90A4-B06CEE83D02B}" path="EditCharge.tcKDTest" />
+					<child name="AddCharge" key="{FBB962F9-A0A1-481E-B718-DB446DD2DFA4}" path="AddCharge.tcKDTest" />
+					<child name="EditSelectedCharge" key="{E92D0CBD-36FF-49B9-89B4-0F7648988DB5}" path="EditSelectedCharge.tcKDTest" />
+					<child name="DeleteSelectedCharge" key="{950A2D5D-1E91-493F-8F5C-CE4CF8E77873}" path="DeleteSelectedCharge.tcKDTest" />
+					<child name="CreateNewOffer" key="{B09BB5E0-9616-4B6B-A864-950981E9AB35}" path="CreateNewOffer.tcKDTest" />
+					<child name="VerifyRequestedHub" key="{AED1EC68-1CCA-40B0-BE0C-94F1B11A163A}" path="VerifyRequestedHub.tcKDTest" />
+					<child name="VerifyBookedQuoteHub" key="{5C99C95B-1F9E-4BE8-B48D-521A713B71A9}" path="VerifyBookedQuoteHub.tcKDTest" />
+				</folder>
+				<folder name="FILTERS">
+					<child name="FilterOpenQuote" key="{10C68BDB-B3BD-4C8A-9F16-921DA56DD3F0}" path="FilterOpenQuote.tcKDTest" />
+					<child name="FilterAir" key="{5DC53D4A-9316-4AA3-8814-4B7C8A1BB7EE}" path="FilterAir.tcKDTest" />
+					<child name="FilterMoreThan1" key="{B306383F-51BF-4C9F-93BB-885505C45A8A}" path="FilterMoreThan1.tcKDTest" />
+					<child name="FilterLCL" key="{A219940D-C1A5-433F-BF79-F897127A1BAB}" path="FilterLCL.tcKDTest" />
+					<child name="FilterStatusRequest" key="{477C31FF-77E7-4129-92DB-0C86F011187C}" path="FilterStatusRequest.tcKDTest" />
+					<child name="FilterCompletedStatus" key="{4E0B4E39-A3AA-4E78-96CF-02D5504EC751}" path="FilterCompletedStatus.tcKDTest" />
+					<child name="FilterShipmentReference" key="{A22D1938-C415-4E56-B837-364C1978A61C}" path="FilterShipmentReference.tcKDTest" />
+					<child name="FilterCustomer" key="{25D9B0F7-6A44-4B6A-8F82-CDB3897A7E0C}" path="FilterCustomer.tcKDTest" />
+					<child name="FilterCustomerReference" key="{C44B1254-717C-42FD-A3F8-3E5D8C64A6C1}" path="FilterCustomerReference.tcKDTest" />
+					<child name="FilterBookingDate" key="{A074AE5F-2AA6-49FA-B135-656C24AE39D2}" path="FilterBookingDate.tcKDTest" />
+					<child name="FilterMilestoneConfirmed" key="{45A567EB-32ED-4AA1-9A34-75EAA7DAB77E}" path="FilterMilestoneConfirmed.tcKDTest" />
+					<child name="FilterMasterBL" key="{296AE74D-5E7D-4F8D-8133-7740A9E0E04D}" path="FilterMasterBL.tcKDTest" />
+					<child name="FilterHouseBL" key="{59B5F1FF-CC0A-4A7F-8885-4FC3A5A35F90}" path="FilterHouseBL.tcKDTest" />
+					<child name="FilterETD" key="{5FA44AAD-7450-4118-837B-3CEBE5F81429}" path="FilterETD.tcKDTest" />
+					<child name="FilterETA" key="{FE660B1C-77E5-4419-A2EF-789246CC8C5F}" path="FilterETA.tcKDTest" />
+					<child name="FilterAccountManager" key="{E1DC7A7D-8A93-4FED-B71B-7FEED6272C42}" path="FilterAccountManager.tcKDTest" />
+					<child name="FilterProduct" key="{A5775906-BDC5-493E-8764-B49344E48D61}" path="FilterProduct.tcKDTest" />
+					<child name="FilterSort" key="{4BB90285-D2A0-4649-A070-5FBDC23BD188}" path="FilterSort.tcKDTest" />
+					<child name="FilterVessel" key="{5870E438-F8B8-45D6-8E47-0FF54B4544E0}" path="FilterVessel.tcKDTest" />
+				</folder>
+			</folder>
+			<folder name="LoginLogout">
+				<child name="LoginHubNoInt" key="{93C26022-E9B6-4028-8B95-1D7F2F1AFD6E}" path="LoginHubNoInt.tcKDTest" />
+				<child name="LoginPortal" key="{C3F6F2CB-4832-4590-8353-3A4585118EF9}" path="LoginPortal.tcKDTest" />
+			</folder>
+			<folder name="PORTAL">
+				<folder name="Quotation">
+					<child name="VerifyQuotePortal" key="{F3FA7943-1945-4421-9C3E-14272FA735CE}" path="VerifyQuotePortal.tcKDTest" />
+					<child name="SearchQuotePortal" key="{526CB4BF-9AEF-4E2B-8F81-234D485F3289}" path="SearchQuotePortal.tcKDTest" />
+					<child name="CreateQuoteFirst" key="{A99E59B3-BA04-44B1-B33A-485B99F15A53}" path="CreateQuoteFirst.tcKDTest" />
+					<child name="SelectLCLPortal" key="{8674C0CB-07AF-4090-A2D6-4D757CEDD859}" path="SelectLCLPortal.tcKDTest" />
+					<child name="OriginDestinationPortal" key="{70E3A172-EBCC-4762-B60A-0DAACC4936BD}" path="OriginDestinationPortal.tcKDTest" />
+					<child name="BuyerAndDimensions" key="{07AA9C55-E2F0-4FBC-A3A6-A85BEEC54DF5}" path="BuyerAndDimensions.tcKDTest" />
+					<child name="RequestNewRate" key="{4D658F9D-CA6B-435C-BE01-D99EEA336545}" path="RequestNewRate.tcKDTest" />
+					<child name="SelectGroundPortal" key="{8AE3904F-0314-4539-BBE8-76904C294773}" path="SelectGroundPortal.tcKDTest" />
+					<child name="BuyerAnd40" key="{3B7EB55D-5018-4BF5-AB8E-A2C01F98FA2D}" path="BuyerAnd40.tcKDTest" />
+					<child name="SelectGroundLTLPortal" key="{7F22C882-F124-44D2-8F72-F4C1B1CCCAD0}" path="SelectGroundLTLPortal.tcKDTest" />
+					<child name="SellerAndDimensions" key="{26293EFC-0B2D-4988-A47E-D8DA3B6A7726}" path="SellerAndDimensions.tcKDTest" />
+					<child name="SelectAirPortal" key="{771BAA01-DE1D-4319-9A05-8F8307B0F15B}" path="SelectAirPortal.tcKDTest" />
+					<child name="BuyerAndDimHaz" key="{297FAFB8-B05F-415E-91A6-5155FE7468F6}" path="BuyerAndDimHaz.tcKDTest" />
+					<child name="SelectFCLPortal" key="{8161EB39-1BE2-4EFB-A4C5-EE2695BA89D5}" path="SelectFCLPortal.tcKDTest" />
+					<child name="BookedQuoteVerifyShipment" key="{5BA54EE9-650C-4B9F-B9DA-2B9964E9FDB8}" path="BookedQuoteVerifyShipment.tcKDTest" />
+					<child name="VerifyNotifications" key="{CB441D23-626F-4CA7-B284-84C156A00F95}" path="VerifyNotifications.tcKDTest" />
+					<child name="VerifyBookedQuotePOrtal" key="{AFB48A2A-CBB2-4D99-9375-4619764CC727}" path="VerifyBookedQuotePOrtal.tcKDTest" />
+				</folder>
+			</folder>
+			<folder name="EMAIL">
+				<child name="VerifyQuoteGmail" key="{D9FA5A91-8973-4144-903C-7C1519A35046}" path="VerifyQuoteGmail.tcKDTest" />
+				<child name="VerifyEmailNOTExist" key="{D4583FC8-3FE7-4A7C-94AF-4AEEEAB84705}" path="VerifyEmailNOTExist.tcKDTest" />
+				<child name="VerifyGmailBooked" key="{433057F7-174D-49B8-B57E-6BFA289E39D7}" path="VerifyGmailBooked.tcKDTest" />
+			</folder>
+		</folder>
+	</children>
+</Root>

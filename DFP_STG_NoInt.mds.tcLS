@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="logs">
+				<Prp name="key" type="S" value="{7AA53E1F-890D-4110-AC93-EE92026C1728}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables">
+				<Node name="datav4">
+					<Node name="var0">
+						<Prp name="name" type="S" value="quote_id"/>
+					</Node>
+					<Node name="var1">
+						<Prp name="name" type="S" value="offersHub"/>
+					</Node>
+					<Node name="var10">
+						<Prp name="name" type="S" value="commodity_copy"/>
+					</Node>
+					<Node name="var11">
+						<Prp name="name" type="S" value="origin_copy"/>
+					</Node>
+					<Node name="var12">
+						<Prp name="name" type="S" value="destination_copy"/>
+					</Node>
+					<Node name="var13">
+						<Prp name="name" type="S" value="quoteID_copy"/>
+					</Node>
+					<Node name="var14">
+						<Prp name="name" type="S" value="original_price"/>
+					</Node>
+					<Node name="var15">
+						<Prp name="name" type="S" value="final_price"/>
+					</Node>
+					<Node name="var16">
+						<Prp name="name" type="S" value="now"/>
+					</Node>
+					<Node name="var17">
+						<Prp name="name" type="S" value="new_offers"/>
+					</Node>
+					<Node name="var18">
+						<Prp name="name" type="S" value="quote_number"/>
+					</Node>
+					<Node name="var19">
+						<Prp name="name" type="S" value="notificationsBeforeBooked"/>
+					</Node>
+					<Node name="var2">
+						<Prp name="name" type="S" value="Password1"/>
+					</Node>
+					<Node name="var20">
+						<Prp name="name" type="S" value="shipment_quote"/>
+					</Node>
+					<Node name="var21">
+						<Prp name="name" type="S" value="notificationsAfter"/>
+					</Node>
+					<Node name="var3">
+						<Prp name="name" type="S" value="offersPortal"/>
+					</Node>
+					<Node name="var4">
+						<Prp name="name" type="S" value="notifications"/>
+					</Node>
+					<Node name="var5">
+						<Prp name="name" type="S" value="mode"/>
+					</Node>
+					<Node name="var6">
+						<Prp name="name" type="S" value="commodity"/>
+					</Node>
+					<Node name="var7">
+						<Prp name="name" type="S" value="origin"/>
+					</Node>
+					<Node name="var8">
+						<Prp name="name" type="S" value="destination"/>
+					</Node>
+					<Node name="var9">
+						<Prp name="name" type="S" value="mode_copy"/>
+					</Node>
+				</Node>
+				<Prp name="version" type="I" value="4"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{49FC0C30-9EF7-4DBD-97A8-B7A00E79A2AF}"/>
+	</Node>
+</Nodes>

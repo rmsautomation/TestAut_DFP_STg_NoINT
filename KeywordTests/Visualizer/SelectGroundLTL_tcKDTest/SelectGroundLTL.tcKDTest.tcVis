@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{C1C4B14E-DFE1-497A-8235-FDB4A8B19B4A}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45646.8632638889" objectName="Aliases.browser.pageQuotationsMagayaDigitalFreig.sectionQwyk.formRequest.textbox2" objectLeft="626" objectTop="473" objectRight="910" objectBottom="495" clickPointX="707" clickPointY="475" imageFileName="tcvi1204147468118000.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45646.863287037" objectName="Aliases.browser.pageQuotationMagayaDigitalFreigh2.sectionQwyk.formRequest.textnodePartialLoad" objectLeft="626" objectTop="549" objectRight="699" objectBottom="567" clickPointX="670" clickPointY="550" imageFileName="tcvi1204149546118001.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45646.8632986111" objectName="Aliases.browser.pageQuotationsMagayaDigitalFreig.sectionQwyk.formRequest.textbox3" objectLeft="1003" objectTop="473" objectRight="1287" objectBottom="495" clickPointX="1014" clickPointY="489" imageFileName="tcvi1204150328118002.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45646.8633101852" objectName="Aliases.browser.pageQuotationMagayaDigitalFreigh2.sectionQwyk.formRequest.textnodeTruck" objectLeft="1003" objectTop="587" objectRight="1039" objectBottom="605" clickPointX="1025" clickPointY="596" imageFileName="tcvi1204151578118003.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>
