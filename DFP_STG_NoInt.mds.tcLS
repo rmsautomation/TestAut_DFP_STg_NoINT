@@ -71,6 +71,12 @@
 					<Node name="var21">
 						<Prp name="name" type="S" value="notificationsAfter"/>
 					</Node>
+					<Node name="var22">
+						<Prp name="name" type="S" value="emailNow"/>
+					</Node>
+					<Node name="var23">
+						<Prp name="name" type="S" value="Password2"/>
+					</Node>
 					<Node name="var3">
 						<Prp name="name" type="S" value="offersPortal"/>
 					</Node>
