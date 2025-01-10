@@ -26,6 +26,9 @@
 				</folder>
 			</folder>
 			<folder name="PORTAL">
+				<folder name="USER">
+					<child name="TC_21_272_NewUserRegistration" key="{3EF02067-FFB4-4D81-B4F2-7AB14AD08A1D}" path="TC_21_272_NewUserRegistration.tcKDTest" />
+				</folder>
 				<child name="TC_12_146_LCLBuyerRequested" key="{34EEFC08-4EF9-41EC-BF33-DC010692A71B}" path="TC_12_146_LCLBuyerRequested.tcKDTest" />
 				<child name="TC_13_149Ground_BuyerRequested" key="{E3BB478E-F1A6-444C-8469-3C2EE584A300}" path="TC_13_149Ground_BuyerRequested.tcKDTest" />
 				<child name="TC_14_150_LTLSellerRequested" key="{1D1FA025-1B9F-4981-A8A1-B05CB7C23AAF}" path="TC_14_150_LTLSellerRequested.tcKDTest" />
@@ -83,6 +86,9 @@
 					<child name="FilterSort" key="{4BB90285-D2A0-4649-A070-5FBDC23BD188}" path="FilterSort.tcKDTest" />
 					<child name="FilterVessel" key="{5870E438-F8B8-45D6-8E47-0FF54B4544E0}" path="FilterVessel.tcKDTest" />
 				</folder>
+				<folder name="HOME">
+					<child name="VerifyRegisterNotification" key="{79200BAD-DCF5-44B1-B9B0-294512FC497F}" path="VerifyRegisterNotification.tcKDTest" />
+				</folder>
 			</folder>
 			<folder name="LoginLogout">
 				<child name="LoginHubNoInt" key="{93C26022-E9B6-4028-8B95-1D7F2F1AFD6E}" path="LoginHubNoInt.tcKDTest" />
@@ -108,11 +114,16 @@
 					<child name="VerifyNotifications" key="{CB441D23-626F-4CA7-B284-84C156A00F95}" path="VerifyNotifications.tcKDTest" />
 					<child name="VerifyBookedQuotePOrtal" key="{AFB48A2A-CBB2-4D99-9375-4619764CC727}" path="VerifyBookedQuotePOrtal.tcKDTest" />
 				</folder>
+				<folder name="USER">
+					<child name="RegisterUser" key="{04DE4806-836C-47AF-B037-4396C89F2A40}" path="RegisterUser.tcKDTest" />
+				</folder>
 			</folder>
 			<folder name="EMAIL">
 				<child name="VerifyQuoteGmail" key="{D9FA5A91-8973-4144-903C-7C1519A35046}" path="VerifyQuoteGmail.tcKDTest" />
 				<child name="VerifyEmailNOTExist" key="{D4583FC8-3FE7-4A7C-94AF-4AEEEAB84705}" path="VerifyEmailNOTExist.tcKDTest" />
 				<child name="VerifyGmailBooked" key="{433057F7-174D-49B8-B57E-6BFA289E39D7}" path="VerifyGmailBooked.tcKDTest" />
+				<child name="CreateYopmailEmail" key="{442855D9-B666-436C-A104-CD0C7F19A2EE}" path="CreateYopmailEmail.tcKDTest" />
+				<child name="VerifyEmailRegistration" key="{B6975245-7141-41A2-AA81-38F29B3D88D7}" path="VerifyEmailRegistration.tcKDTest" />
 			</folder>
 		</folder>
 	</children>
