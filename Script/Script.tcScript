@@ -6,5 +6,6 @@
 		<child name="VerifyValues" key="{CA0C483C-E383-4662-927F-01B86B5D4894}" path="VerifyValues.js" />
 		<child name="VerifyDownloadTc9" key="{8A7F5F56-1E41-4A57-9E1F-5B33E71AEC07}" path="VerifyDownloadTc9.js" />
 		<child name="VerifyFilterShipmentsPortal" key="{29B75032-4BEC-4FA4-929D-23299A65C016}" path="VerifyFilterShipmentsPortal.js" />
+		<child name="FailTest" key="{0D335E42-6293-4189-961A-95FCD2F8C1CF}" path="FailTest.js" />
 	</children>
 </Root>
