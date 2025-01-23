@@ -853,6 +853,24 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textboxName" Key="{1A484E3D-7B03-4D03-BC85-4C87A5363E81}">
+										<Image FileName="446758297" Left="536" Top="394" Right="1433" Bottom="430" />
+										<TypeInfo Item0="{56EA3786-F97E-483C-9D9E-489A615578EF}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Name&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#name" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;name&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-portal-team-form/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageNewQuotationMagayaDigitalFre" Key="{E8FA6234-E90E-4718-87E5-242D5315E7B5}">
@@ -2697,6 +2715,38 @@
 										<Selectors>
 											<Selector>
 												<Value Value="xpath=//div[contains(normalize-space(text()), &apos;signed up for an account&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navOverview" Key="{C6293E14-2D64-4142-8BDF-BDA41858EF97}">
+										<Image FileName="2060449221" Left="227" Top="298" Right="1171" Bottom="342" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Overview&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-portal-team-detail/nav[contains(@class, &apos;nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-portal-team-detail/nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkOverview" Key="{2503D672-311A-49DF-9A7D-DB54FE82C972}">
+										<Image FileName="2060449221" Left="227" Top="302" Right="337" Bottom="341" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//a[@class=&apos;nav-link active&apos; and normalize-space(text())=&apos;Overview&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Overview&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/a" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -6280,7 +6330,6 @@
 								<Children>
 									<Child Name="frameIfmail" Key="{B8DB5CCB-9008-4D0D-9A7A-80D904F087AD}">
 										<Image FileName="-2140356205" Left="583" Top="246" Right="1768" Bottom="995" />
-										<TypeInfo Item0="{C25157C7-E653-4A79-89B8-8B2228DE0B93}" />
 										<Selectors>
 											<Selector>
 												<Value Value="#ifmail" />
@@ -6449,6 +6498,496 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="BrowserWindow" Key="{5D80D389-1796-495B-B392-63A9B6AF0CD8}">
+								<Image FileName="1918493755" Left="-8" Top="-8" Right="1928" Bottom="1048" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageMagayaDigitalFreightPortalHu" Key="{EA49813E-AFEA-4DC8-AFD1-6937D922A491}">
+								<Image FileName="141570582" Left="0" Top="139" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://hub.next.qwykportals.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeAdminPortal" Key="{8E6064B1-A154-425D-8AD0-0E1170447EB2}">
+										<Image FileName="141570582" Left="0" Top="467" Right="51" Bottom="512" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Admin Portal&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkAdministration" Key="{C05FDCEC-AD36-457C-B0E4-65D460C6592A}">
+										<Image FileName="141570582" Left="0" Top="467" Right="51" Bottom="513" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[7]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[7]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vgImg" Key="{41D80A49-6A83-4CE2-9E6C-FA0BB854932D}">
+										<Image FileName="141570582" Left="15" Top="482" Right="33" Bottom="496" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[7]/a/fa-icon/*[name()=&apos;svg&apos;][@role=&apos;img&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[7]/a/fa-icon/*[name()=&apos;svg&apos;][contains(@class, &apos;svg-inline--fa&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[7]/a/fa-icon/*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageMagayaDigitalFreightPortalHu2" Key="{0679E409-794C-4AB1-8299-49CD413EA780}">
+								<Image FileName="141570582" Left="0" Top="139" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://hub.next.qwykportals.com/administration/portal-users" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeAdminPortal" Key="{AB20C735-75CF-4B17-AFB5-D7315D783EEC}">
+										<Image FileName="-2004880292" Left="51" Top="468" Right="251" Bottom="854" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Admin Portal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[7]/ul[contains(@class, &apos;nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[7]/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCustomers" Key="{60472A2E-A084-4596-B585-46BFA65FC726}">
+										<Image FileName="-2004880292" Left="51" Top="559" Right="250" Bottom="601" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[7]/ul/li[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkCustomers" Key="{2B52B357-BC98-4859-9C4D-736640D0570D}">
+										<Image FileName="-2004880292" Left="51" Top="559" Right="250" Bottom="601" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Customers&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/li[3]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/li[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageMagayaDigitalFreightPortalHu3" Key="{E48831AE-00D5-4265-8723-9846C035B259}">
+								<Image FileName="141570582" Left="0" Top="139" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://hub.next.qwykportals.com/administration/portal-teams" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionQwyk" Key="{BD78A2D1-2A45-42F5-BE36-20A842A4C824}">
+										<Image FileName="-705253826" Left="50" Top="139" Right="1920" Bottom="1040" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Qwyk&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;page-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePortalCustomers" Key="{AABF20C7-BD34-4E9C-B95C-0548B12F8983}">
+										<Image FileName="-705253826" Left="65" Top="253" Right="272" Bottom="285" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h3[.=&apos;Portal Customers&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//h3[normalize-space(text())=&apos;Portal Customesr&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[contains(@class, &apos;font-weight-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonCreateCustomer" Key="{4F938FD8-8887-4CE7-92CD-1BD5D750EFA9}">
+										<Image FileName="-1510084092" Left="1749" Top="251" Right="1905" Bottom="287" />
+										<TypeInfo Item0="{F733B336-0E81-4E53-93E9-417D3C50A5BC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Create customer&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox" Key="{F700EBFB-6AC8-4D2F-8136-CCDFA6538ACE}">
+										<Image FileName="1304937907" Left="127" Top="351" Right="379" Bottom="381" />
+										<TypeInfo Item0="{651DEC13-C3FC-47A7-B9F9-218820B50778}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//th[2]/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pn_id_32-table&apos;]//th[2]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSearch" Key="{86F6152C-11C4-4255-ACFB-8EE59152CF39}">
+										<Image FileName="-1608946004" Left="1749" Top="351" Right="1807" Bottom="381" />
+										<TypeInfo Item0="{F733B336-0E81-4E53-93E9-417D3C50A5BC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Search&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th/button[contains(@class, &apos;btn-primary&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkTeamnamecustomernow" Key="{BC26BD08-B336-41DD-B6C5-A4641282A11A}">
+										<Image FileName="-1815577629" Left="127" Top="401" Right="289" Bottom="418" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pn_id_32-table&apos;]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageMagayaDigitalFreightPortalHu4" Key="{FCEBC798-E503-4CBF-B3D5-50B3A8F24270}">
+								<Image FileName="1030793133" Left="0" Top="139" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://hub.next.qwykportals.com/administration/portal-teams/new" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formName" Key="{0CF05D2F-19F7-4162-A766-8F037DCE3C8E}">
+										<Image FileName="1030793133" Left="528" Top="298" Right="1425" Bottom="1816" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Name&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;ng-untouched&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxName" Key="{C686EE3A-A9D9-4418-829C-272845FBC8B8}">
+										<Image FileName="1030793133" Left="528" Top="327" Right="1425" Bottom="363" />
+										<TypeInfo Item0="{651DEC13-C3FC-47A7-B9F9-218820B50778}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Name&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#name" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;name&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-portal-team-form/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelCompany" Key="{A0CC8C64-C29F-480C-BF33-AA99E646F435}">
+										<Image FileName="437646997" Left="551" Top="415" Right="612" Bottom="438" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Company&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/label[contains(@class, &apos;custom-control-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox" Key="{C02DAA32-E6F3-4BA0-B1D7-B9EA0B5ABA35}">
+										<Image FileName="-265133080" Left="993" Top="414" Right="1374" Bottom="436" />
+										<TypeInfo Item0="{651DEC13-C3FC-47A7-B9F9-218820B50778}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//qwyk-portal-team-form/div[2]//ng-select//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ng-select[@id=&apos;segment&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-portal-team-form/div[2]/div[2]/ng-select//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCustomer" Key="{C6B116E4-BABC-4419-BBB0-A2EBC96922FE}">
+										<Image FileName="-265133080" Left="993" Top="453" Right="1056" Bottom="471" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Customer&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/span[contains(@class, &apos;ng-option-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ng-select[@id=&apos;segment&apos;]//div/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//ng-select/ng-dropdown-panel[@role=&apos;listbox&apos;]//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxAddress" Key="{DD53A32C-E0E1-483F-9D89-6E5ED6D2DC02}">
+										<Image FileName="-1581224717" Left="528" Top="585" Right="1425" Bottom="621" />
+										<TypeInfo Item0="{651DEC13-C3FC-47A7-B9F9-218820B50778}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Address&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#street1" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;street1&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg" Key="{E3B4842B-E77D-46F2-95AF-C5D94E58E43F}">
+										<Image FileName="89613713" Left="722" Top="715" Right="737" Bottom="730" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form/qwyk-portal-team-form/div[9]/p-multiselect//chevrondownicon/*[name()=&apos;svg&apos;][contains(@class, &apos;p-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;account_manager_ids&apos;]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//chevrondownicon/*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAlexSkripovDev" Key="{79425EF3-4102-4E78-9ABC-FD11DFA1C940}">
+										<Image FileName="-814745743" Left="529" Top="791" Right="779" Bottom="1404" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Alex Skripov (Dev)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;listbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;p-multiselect-items&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAylinRodriguez" Key="{8AD38991-D4FA-4DFD-A4D9-4B76C2EF4C7A}">
+										<Image FileName="-814745743" Left="529" Top="859" Right="779" Bottom="893" />
+										<Selectors>
+											<Selector>
+												<Value Value="#account_manager_ids_2" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[.=&apos;Aylin Rodriguez&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-multiselectitem[3]/li[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-multiselectitem[3]/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{E2E7B7B1-E1D9-433D-BEF2-24F9794428DD}">
+										<Image FileName="-814745743" Left="542" Top="866" Right="562" Bottom="886" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/ul/p-multiselectitem[3]/li//div[contains(@class, &apos;p-checkbox-box&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;account_manager_ids_2&apos;]//div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-multiselectitem[3]/li/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAccountManager" Key="{B8135EEC-DA83-4B38-8621-0BAF47677CBE}">
+										<Image FileName="146896774" Left="528" Top="675" Right="1425" Bottom="740" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//qwyk-portal-team-form/div[9]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonCreateCustomer" Key="{57E76925-DB05-4569-B62E-1B2BE2B288DC}">
+										<Image FileName="-2059992036" Left="1263" Top="944" Right="1425" Bottom="980" />
+										<TypeInfo Item0="{F733B336-0E81-4E53-93E9-417D3C50A5BC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Create customer&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-portal-team-create/form//button[contains(@class, &apos;btn-primary&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageMagayaDigitalFreightPortalHu5" Key="{CA0203CA-67F9-4D83-B0F9-53D25D8E6111}">
+								<Image FileName="1030793133" Left="0" Top="139" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://hub.next.qwykportals.com/administration/portal-teams/fda77c16-0c3a-480c-9181-358e4bb8f370" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodePortalCustomer" Key="{32621FFE-B092-47B8-8593-3B1AE89CBCBE}">
+										<Image FileName="1808321949" Left="528" Top="251" Right="721" Bottom="283" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//h3[normalize-space(text())=&apos;Portal Customer&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[.=&apos;Portal Customer&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[contains(@class, &apos;font-weight-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formName" Key="{CEABAEDC-865E-4D88-9C70-CEEA5CA77577}">
+										<Image FileName="-116947933" Left="528" Top="357" Right="1425" Bottom="1875" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Name&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;ng-untouched&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxName" Key="{C7D1806E-DB40-4893-85E1-CC0715C954EC}">
+										<Image FileName="-116947933" Left="528" Top="386" Right="1425" Bottom="422" />
+										<TypeInfo Item0="{651DEC13-C3FC-47A7-B9F9-218820B50778}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Name&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#name" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;name&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-portal-team-form/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSaveCustomer" Key="{996E1B4D-343C-40D7-B753-4AF30AB3F84C}">
+										<Image FileName="-1458603587" Left="1273" Top="943" Right="1425" Bottom="979" />
+										<TypeInfo Item0="{F733B336-0E81-4E53-93E9-417D3C50A5BC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//button[normalize-space(text())=&apos;Save Customer&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-portal-team-detail//form//button[contains(@class, &apos;btn-primary&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -6608,6 +7147,9 @@
 					<Child Name="panelSrtm000197436" Owner="{2C26EB71-106A-423D-B61D-23800BBD9225}" />
 					<Child Name="panelQaTeam" Owner="{F3A95B35-BBDD-4F4D-8487-B05D7BF13B0E}" />
 					<Child Name="cell2" Owner="{6B7C683D-020E-4CF2-8E5F-879745A101D0}" />
+					<Child Name="navOverview" Owner="{C6293E14-2D64-4142-8BDF-BDA41858EF97}">
+						<Child Name="linkOverview" Owner="{2503D672-311A-49DF-9A7D-DB54FE82C972}" />
+					</Child>
 				</Child>
 				<Child Name="buttonYes" Owner="{3E3B0AB3-C5CB-4400-B3C0-2B617C35629C}" />
 				<Child Name="navQuotations" Owner="{C9576DA2-7EF4-46DB-B44D-B3F08306552D}">
@@ -6624,6 +7166,16 @@
 					<Child Name="textnodeShipments" Owner="{C77BC04B-EF3C-40C9-A065-5CDC28F74E7E}">
 						<Child Name="linkShipments" Owner="{0C2352D1-BC3C-47B9-8EC2-0E45F4BE46C6}">
 							<Child Name="textnode3" Owner="{BDEE85C0-1363-4F82-B758-446906F90C2C}" />
+						</Child>
+					</Child>
+					<Child Name="textnodeAdminPortal" Owner="{8E6064B1-A154-425D-8AD0-0E1170447EB2}">
+						<Child Name="linkAdministration" Owner="{C05FDCEC-AD36-457C-B0E4-65D460C6592A}">
+							<Child Name="vgImg" Owner="{41D80A49-6A83-4CE2-9E6C-FA0BB854932D}" />
+						</Child>
+					</Child>
+					<Child Name="textnodeAdminPortal2" Owner="{AB20C735-75CF-4B17-AFB5-D7315D783EEC}">
+						<Child Name="textnodeCustomers" Owner="{60472A2E-A084-4596-B585-46BFA65FC726}">
+							<Child Name="linkCustomers" Owner="{2B52B357-BC98-4859-9C4D-736640D0570D}" />
 						</Child>
 					</Child>
 				</Child>
@@ -6653,6 +7205,7 @@
 							<Child Name="panelAir" Owner="{2AAC1EA3-625E-4E33-8923-7DC65230E7B0}" />
 						</Child>
 						<Child Name="buttonApply" Owner="{0FFBAF94-E129-4A67-BB99-AEF4E36E0856}" />
+						<Child Name="textboxName" Owner="{1A484E3D-7B03-4D03-BC85-4C87A5363E81}" />
 					</Child>
 					<Child Name="panelSalesRadar" Owner="{A05FAB07-8661-4635-860E-5A68F2CDB364}" />
 					<Child Name="textnode1d" Owner="{854D6127-B6F8-4B64-8CCB-EF08AB7E72A4}">
@@ -7047,6 +7600,41 @@
 					</Child>
 				</Child>
 			</Child>
+			<Child Name="BrowserWindow" Owner="{5D80D389-1796-495B-B392-63A9B6AF0CD8}" />
+			<Child Name="pageMagayaDigitalFreightPortalHu" Owner="{EA49813E-AFEA-4DC8-AFD1-6937D922A491}" />
+			<Child Name="pageMagayaDigitalFreightPortalHu2" Owner="{0679E409-794C-4AB1-8299-49CD413EA780}" />
+			<Child Name="pageMagayaDigitalFreightPortalHu3" Owner="{E48831AE-00D5-4265-8723-9846C035B259}">
+				<Child Name="sectionQwyk" Owner="{BD78A2D1-2A45-42F5-BE36-20A842A4C824}">
+					<Child Name="textnodePortalCustomers" Owner="{AABF20C7-BD34-4E9C-B95C-0548B12F8983}" />
+					<Child Name="buttonCreateCustomer" Owner="{4F938FD8-8887-4CE7-92CD-1BD5D750EFA9}" />
+					<Child Name="formName" Owner="{0CF05D2F-19F7-4162-A766-8F037DCE3C8E}">
+						<Child Name="textboxName" Owner="{C686EE3A-A9D9-4418-829C-272845FBC8B8}" />
+						<Child Name="labelCompany" Owner="{A0CC8C64-C29F-480C-BF33-AA99E646F435}" />
+						<Child Name="textbox" Owner="{C02DAA32-E6F3-4BA0-B1D7-B9EA0B5ABA35}" />
+						<Child Name="textnodeCustomer" Owner="{C6B116E4-BABC-4419-BBB0-A2EBC96922FE}" />
+						<Child Name="textboxAddress" Owner="{DD53A32C-E0E1-483F-9D89-6E5ED6D2DC02}" />
+						<Child Name="vg" Owner="{E3B4842B-E77D-46F2-95AF-C5D94E58E43F}" />
+						<Child Name="panelAccountManager" Owner="{B8135EEC-DA83-4B38-8621-0BAF47677CBE}" />
+						<Child Name="buttonCreateCustomer" Owner="{57E76925-DB05-4569-B62E-1B2BE2B288DC}" />
+					</Child>
+					<Child Name="textbox" Owner="{F700EBFB-6AC8-4D2F-8136-CCDFA6538ACE}" />
+					<Child Name="buttonSearch" Owner="{86F6152C-11C4-4255-ACFB-8EE59152CF39}" />
+					<Child Name="linkTeamnamecustomernow" Owner="{BC26BD08-B336-41DD-B6C5-A4641282A11A}" />
+					<Child Name="textnodePortalCustomer" Owner="{32621FFE-B092-47B8-8593-3B1AE89CBCBE}" />
+					<Child Name="formName2" Owner="{CEABAEDC-865E-4D88-9C70-CEEA5CA77577}">
+						<Child Name="textboxName" Owner="{C7D1806E-DB40-4893-85E1-CC0715C954EC}" />
+						<Child Name="buttonSaveCustomer" Owner="{996E1B4D-343C-40D7-B753-4AF30AB3F84C}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageMagayaDigitalFreightPortalHu4" Owner="{FCEBC798-E503-4CBF-B3D5-50B3A8F24270}">
+				<Child Name="textnodeAlexSkripovDev" Owner="{79425EF3-4102-4E78-9ABC-FD11DFA1C940}">
+					<Child Name="textnodeAylinRodriguez" Owner="{8AD38991-D4FA-4DFD-A4D9-4B76C2EF4C7A}">
+						<Child Name="panel" Owner="{E2E7B7B1-E1D9-433D-BEF2-24F9794428DD}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageMagayaDigitalFreightPortalHu5" Owner="{CA0203CA-67F9-4D83-B0F9-53D25D8E6111}" />
 		</Child>
 	</LogicalNodes>
 </Root>

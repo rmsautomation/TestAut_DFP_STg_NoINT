@@ -24,6 +24,9 @@
 				<folder name="SHIPMENTS">
 					<child name="TC_16_HubShipmentsNoINTFilters" key="{6490693A-59FC-410D-915B-6DEAC4D78BF0}" path="TC_16_HubShipmentsNoINTFilters.tcKDTest" />
 				</folder>
+				<folder name="CUSTOMERS">
+					<child name="TC_19_1482_HUBCreateCustomer" key="{C94404C1-63CC-48CC-8410-0662B5259A09}" path="TC_19_1482_HUBCreateCustomer.tcKDTest" />
+				</folder>
 			</folder>
 			<folder name="PORTAL">
 				<folder name="USER">
@@ -88,6 +91,10 @@
 				</folder>
 				<folder name="HOME">
 					<child name="VerifyRegisterNotification" key="{79200BAD-DCF5-44B1-B9B0-294512FC497F}" path="VerifyRegisterNotification.tcKDTest" />
+				</folder>
+				<folder name="CUSTOMERS">
+					<child name="SelectPortalCustomers" key="{8FBE3810-BA57-4AEE-857E-7B88EF8D4971}" path="SelectPortalCustomers.tcKDTest" />
+					<child name="CreateCustomer" key="{AE02E45B-75F1-45FD-B397-16929451C83E}" path="CreateCustomer.tcKDTest" />
 				</folder>
 			</folder>
 			<folder name="LoginLogout">
