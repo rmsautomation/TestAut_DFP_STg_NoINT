@@ -124,6 +124,7 @@
 					<child name="BookedQuoteVerifyShipment" key="{5BA54EE9-650C-4B9F-B9DA-2B9964E9FDB8}" path="BookedQuoteVerifyShipment.tcKDTest" />
 					<child name="VerifyNotifications" key="{CB441D23-626F-4CA7-B284-84C156A00F95}" path="VerifyNotifications.tcKDTest" />
 					<child name="VerifyBookedQuotePOrtal" key="{AFB48A2A-CBB2-4D99-9375-4619764CC727}" path="VerifyBookedQuotePOrtal.tcKDTest" />
+					<child name="VerifyRequested" key="{78B42C7A-E78D-436B-BF17-5C16DDB952F3}" path="VerifyRequested.tcKDTest" />
 				</folder>
 				<folder name="USER">
 					<child name="RegisterUser" key="{04DE4806-836C-47AF-B037-4396C89F2A40}" path="RegisterUser.tcKDTest" />

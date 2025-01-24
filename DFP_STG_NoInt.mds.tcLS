@@ -83,6 +83,9 @@
 					<Node name="var25">
 						<Prp name="name" type="S" value="Password3"/>
 					</Node>
+					<Node name="var26">
+						<Prp name="name" type="S" value="Password4"/>
+					</Node>
 					<Node name="var3">
 						<Prp name="name" type="S" value="offersPortal"/>
 					</Node>

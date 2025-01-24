@@ -65,11 +65,6 @@
 				</Children>
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-				<Data Description="Maximizes the specified Window object." Action="Maximize">
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.BrowserWindow;" />
-				</Data>
-			</Operation>
-			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Clicks the &apos;%n&apos; control." Action="Click">
 					<CommonData WaitTimeout="60000" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">

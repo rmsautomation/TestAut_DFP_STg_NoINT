@@ -4318,6 +4318,26 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeAylinStagingOn01232025" Key="{6DE735B1-4EF6-498B-B322-018D3CCA1834}">
+										<Image FileName="406462878" Left="478" Top="474" Right="1646" Bottom="587" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Aylin Staging on 01/23/2025&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;py-4&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAutomation" Key="{CE0DCA3C-650A-442F-9548-05C69BD5DFD5}">
+										<Image FileName="406462878" Left="498" Top="541" Right="854" Bottom="563" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Automation&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageInbox351Rmsautomation24Gmail" Key="{B7FB4FB1-27C4-4965-9249-2710F1E39BC7}">
@@ -8376,6 +8396,7 @@
 							<Child Name="panelAShipmentSMilestoneWas" Owner="{911841E3-B13B-48E5-948D-E5212C6154BF}" />
 							<Child Name="panelShipmentStatusUpdatedTo" Owner="{175A0112-728A-4B14-BC95-2FC1ADC72FBA}" />
 							<Child Name="linkShipmentStatusUpdatedTo" Owner="{008154B0-0522-45A5-B558-0DF08912A36F}" />
+							<Child Name="textnodeAylinStagingOn01232025" Owner="{6DE735B1-4EF6-498B-B322-018D3CCA1834}" />
 						</Child>
 					</Child>
 					<Child Name="textnodeSignIn" Owner="{529B6DBD-214E-4E7F-97E9-CBC715AC17A7}">
@@ -8422,6 +8443,7 @@
 					<Child Name="textnodeBooked" Owner="{47EA621C-9045-4DB9-A2C9-B862C27DF80E}" />
 					<Child Name="textnodeBooked2" Owner="{D64BAB12-B28C-46CC-8C7C-2DB6C6276B08}" />
 					<Child Name="quoteIdPortal" Owner="{7A1583E5-8B2F-45B2-890D-CB58BF0000A4}" />
+					<Child Name="textnodeRequest" Owner="{80B02DD1-BE13-4F93-83E2-EC820D127770}" />
 				</Child>
 				<Child Name="offersPortal" Owner="{E594EE80-F876-4037-9AF8-D3867D03A1DA}" />
 				<Child Name="formHowDoYouWantToShip" Owner="{23B4B9FF-5C35-46EF-A0AE-C2286F04814B}">
@@ -8444,7 +8466,6 @@
 				<Child Name="textnodePrId8List" Owner="{71ED2F3D-9F87-4189-B913-117FA82BBBB6}">
 					<Child Name="textnodePHighlightedOption" Owner="{B620B488-ED89-4870-BED2-AE5E3954ECDE}">
 						<Child Name="panelLosAngelesCa" Owner="{1971AF8C-74C5-4357-A3AA-3FFE52754239}" />
-						<Child Name="textnodeRequest" Owner="{80B02DD1-BE13-4F93-83E2-EC820D127770}" />
 						<Child Name="panelOceanLcl" Owner="{2A52A718-6C91-4771-82FD-2E9EAE1BBD8A}" />
 					</Child>
 				</Child>
@@ -8507,6 +8528,7 @@
 				<Child Name="panelYourEmailAddressHasBeen" Owner="{128753B8-6ED6-4C37-B841-9D778F98C8C8}" />
 				<Child Name="textnodeConfirmYourEmail2" Owner="{0DDDC8CC-DD4E-4439-8C5A-D320D80EF480}" />
 				<Child Name="panelYourEmailAddressHasBeen2" Owner="{A7D9EB1D-9A44-4213-BD2B-38C1E45EC024}" />
+				<Child Name="panelAutomation" Owner="{CE0DCA3C-650A-442F-9548-05C69BD5DFD5}" />
 			</Child>
 			<Child Name="pageInbox351Rmsautomation24Gmail" Owner="{B7FB4FB1-27C4-4965-9249-2710F1E39BC7}">
 				<Child Name="textnode" Owner="{B0DF588B-D2BD-48BD-85FF-BD97DAA4656F}" />
