@@ -4338,6 +4338,24 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="checkboxIAgreeToTheTermsOfServic" Key="{337243CE-A4A2-4A92-9598-A36DA7262C23}">
+										<Image FileName="-2117422571" Left="923" Top="704" Right="936" Bottom="717" />
+										<TypeInfo Item0="{2C38A760-B863-4251-A0F5-EB183BD5613E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;I agree to the terms of service and consent to having my data processed in accordance with the privacy policy.Terms of Service&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#accept_terms" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div[7]//input[@type=&apos;checkbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div[7]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageInbox351Rmsautomation24Gmail" Key="{B7FB4FB1-27C4-4965-9249-2710F1E39BC7}">
@@ -6505,7 +6523,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qa.next.qwykportals.com/auth/register*" />
+										<Value Value="https://*.qwykportals.com/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -6537,6 +6555,9 @@
 										<Image FileName="1101343172" Left="889" Top="739" Right="1047" Bottom="777" />
 										<TypeInfo Item0="{3144A3F4-849C-4930-A907-26B495C6FA28}" />
 										<Selectors>
+											<Selector>
+												<Value Value="xpath=//button[normalize-space(.)=&apos;Continue to sign in&apos;]" />
+											</Selector>
 											<Selector>
 												<Value Value="//button[.=&apos;Continue to sign in&apos;]" />
 											</Selector>
@@ -7555,6 +7576,101 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="formChooseYourAccountDetails" Key="{A2333DFB-ECF0-4F4A-AB67-66E1D2421E4E}">
+										<Image FileName="-1125305352" Left="915" Top="446" Right="1457" Bottom="758" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Choose your account details&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxName" Key="{930B2B6B-AD44-41ED-B31E-DD401C8BE433}">
+										<Image FileName="-1125305352" Left="960" Top="494" Right="1457" Bottom="542" />
+										<TypeInfo Item0="{651DEC13-C3FC-47A7-B9F9-218820B50778}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#name" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;name&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxEmail" Key="{4C35918A-AAD7-488A-9D2A-C84003863C4D}">
+										<Image FileName="1663052044" Left="960" Top="566" Right="1457" Bottom="614" />
+										<TypeInfo Item0="{651DEC13-C3FC-47A7-B9F9-218820B50778}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#email" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div[2]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div[2]//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{E50B619A-BF2D-4857-A3EB-7EBAFC1D55CD}">
+										<Image FileName="369202859" Left="960" Top="638" Right="1457" Bottom="686" />
+										<TypeInfo Item0="{651DEC13-C3FC-47A7-B9F9-218820B50778}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#password" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div[3]//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div[3]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonContinue" Key="{3D9ADDD0-9BC4-4E56-9ECB-48CDF53A46F7}">
+										<Image FileName="-1751958249" Left="915" Top="720" Right="1457" Bottom="768" />
+										<TypeInfo Item0="{F733B336-0E81-4E53-93E9-417D3C50A5BC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Continue&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//form//button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//form//button" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagayaDigitalFreightPortalHu7" Key="{413F635A-DB22-48B2-BFA7-15D92592539D}">
@@ -8432,6 +8548,7 @@
 					<Child Name="formStatus" Owner="{C8F24866-BF27-42C4-98C2-5DD0914C3BBC}">
 						<Child Name="textboxFriendlyId" Owner="{642DE1E8-563D-4955-9CAB-618B80B72EFB}" />
 						<Child Name="buttonSearch" Owner="{071AB233-9375-4FA8-AD4F-37BAEAEB4680}" />
+						<Child Name="checkboxIAgreeToTheTermsOfServic" Owner="{337243CE-A4A2-4A92-9598-A36DA7262C23}" />
 					</Child>
 					<Child Name="textnode1To1Of" Owner="{FC2180E2-2FBF-46CA-A03E-9DA9B9E260DB}" />
 					<Child Name="navSummary" Owner="{67FF61EF-FB06-478D-9284-3FA5B315E80E}">
@@ -8825,6 +8942,12 @@
 					<Child Name="textnode1To1Of" Owner="{81730892-8A57-436A-AD03-2F294110BC1D}" />
 				</Child>
 				<Child Name="textnodeCreated" Owner="{CC45D29D-DDE2-40A3-B3FC-9A96ED9A1614}" />
+				<Child Name="formChooseYourAccountDetails" Owner="{A2333DFB-ECF0-4F4A-AB67-66E1D2421E4E}">
+					<Child Name="textboxName" Owner="{930B2B6B-AD44-41ED-B31E-DD401C8BE433}" />
+					<Child Name="textboxEmail" Owner="{4C35918A-AAD7-488A-9D2A-C84003863C4D}" />
+					<Child Name="passwordboxPassword" Owner="{E50B619A-BF2D-4857-A3EB-7EBAFC1D55CD}" />
+					<Child Name="buttonContinue" Owner="{3D9ADDD0-9BC4-4E56-9ECB-48CDF53A46F7}" />
+				</Child>
 			</Child>
 			<Child Name="pageMagayaDigitalFreightPortalHu7" Owner="{413F635A-DB22-48B2-BFA7-15D92592539D}" />
 			<Child Name="pageMagayaDigitalFreightPortalHu8" Owner="{D9CEA374-D08B-4D43-910F-4652CACA25AA}" />
