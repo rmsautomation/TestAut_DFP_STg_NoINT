@@ -2798,7 +2798,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qa.next.qwykportals.com/*" />
+										<Value Value="https://*qwykportals.com/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -7418,6 +7418,99 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="sectionMyPortal" Key="{428194BD-2E6D-40A2-9C94-A491B71460DA}">
+										<Image FileName="-451975454" Left="220" Top="87" Right="1903" Bottom="1084" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;My Portal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;page-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNumber" Key="{113475B6-7FAD-4097-AFA7-00CEFF96F76D}">
+										<Image FileName="-451975454" Left="477" Top="403" Right="1647" Bottom="515" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Number&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;list-group&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotations-index-list/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeQuo01223" Key="{32F5EAB2-514F-4A15-83B4-35F2FF335CEA}">
+										<Image FileName="-451975454" Left="477" Top="442" Right="1647" Bottom="515" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//li[contains(., &apos;QUO&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;list-group-item-action&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCreated" Key="{CC45D29D-DDE2-40A3-B3FC-9A96ED9A1614}">
+										<Image FileName="-451975454" Left="642" Top="466" Right="731" Bottom="490" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;Created&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotation-status-badge/span[contains(@class, &apos;badge&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotation-status-badge/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode1To1Of" Key="{81730892-8A57-436A-AD03-2F294110BC1D}">
+										<Image FileName="-1635227981" Left="1204" Top="475" Right="1381" Bottom="490" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;1 to 1 of&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;small&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotations-index-page//qwyk-pagination/p-paginator//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navSummary" Key="{FFC5399B-0C8B-468B-8FF0-C468FEDE8009}">
+										<Image FileName="-984866624" Left="485" Top="302" Right="1655" Bottom="347" />
+										<TypeInfo Item0="{B96B5BC7-5AC0-4334-A843-2C0B052800E3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Summary&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotation-detail-navs/nav[contains(@class, &apos;nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotation-detail-navs/nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkOffers" Key="{D7BA0C45-C7A4-42C9-825A-AF4A1576F98E}">
+										<Image FileName="-984866624" Left="599" Top="306" Right="694" Bottom="346" />
+										<TypeInfo Item0="{D1C05982-4600-4FE4-8C8E-B5C72087851F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Offers&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagayaDigitalFreightPortalHu7" Key="{413F635A-DB22-48B2-BFA7-15D92592539D}">
@@ -8658,6 +8751,9 @@
 					<Child Name="formAccount2" Owner="{6A8F175A-59AD-4425-99C4-7C162767E2D7}">
 						<Child Name="textnodeAccount" Owner="{C7A682AD-F3DE-4A68-B94D-6365C87F3763}" />
 					</Child>
+					<Child Name="navSummary" Owner="{FFC5399B-0C8B-468B-8FF0-C468FEDE8009}">
+						<Child Name="linkOffers" Owner="{D7BA0C45-C7A4-42C9-825A-AF4A1576F98E}" />
+					</Child>
 				</Child>
 				<Child Name="navDashboard" Owner="{102D58AE-0230-49AA-954D-2647F8B812E0}">
 					<Child Name="textnodeSignIn" Owner="{50A27C41-82E6-43A8-97A7-DF2FC71EC228}">
@@ -8674,6 +8770,13 @@
 				<Child Name="sectionGoodAfternoonJan23170055n" Owner="{29AC2DAA-ADFB-45E4-809E-2F73D0E17AC4}">
 					<Child Name="textnodeHereIsASnapshotOfWhatS" Owner="{7D18F2BB-89BC-4B68-96B7-7DDC4F6EC066}" />
 				</Child>
+				<Child Name="sectionMyPortal" Owner="{428194BD-2E6D-40A2-9C94-A491B71460DA}">
+					<Child Name="textnodeNumber" Owner="{113475B6-7FAD-4097-AFA7-00CEFF96F76D}">
+						<Child Name="textnodeQuo01223" Owner="{32F5EAB2-514F-4A15-83B4-35F2FF335CEA}" />
+					</Child>
+					<Child Name="textnode1To1Of" Owner="{81730892-8A57-436A-AD03-2F294110BC1D}" />
+				</Child>
+				<Child Name="textnodeCreated" Owner="{CC45D29D-DDE2-40A3-B3FC-9A96ED9A1614}" />
 			</Child>
 			<Child Name="pageMagayaDigitalFreightPortalHu7" Owner="{413F635A-DB22-48B2-BFA7-15D92592539D}" />
 			<Child Name="pageMagayaDigitalFreightPortalHu8" Owner="{D9CEA374-D08B-4D43-910F-4652CACA25AA}" />
