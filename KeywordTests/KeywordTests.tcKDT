@@ -26,6 +26,7 @@
 				</folder>
 				<folder name="CUSTOMERS">
 					<child name="TC_19_1482_HUBCreateCustomer" key="{C94404C1-63CC-48CC-8410-0662B5259A09}" path="TC_19_1482_HUBCreateCustomer.tcKDTest" />
+					<child name="TC_20_1483_HUBCustomerCreateUser" key="{12CE17C3-55A8-4C1E-8128-EBE3628FEA5E}" path="TC_20_1483_HUBCustomerCreateUser.tcKDTest" />
 				</folder>
 			</folder>
 			<folder name="PORTAL">
@@ -96,6 +97,9 @@
 					<child name="SelectPortalCustomers" key="{8FBE3810-BA57-4AEE-857E-7B88EF8D4971}" path="SelectPortalCustomers.tcKDTest" />
 					<child name="CreateCustomer" key="{AE02E45B-75F1-45FD-B397-16929451C83E}" path="CreateCustomer.tcKDTest" />
 				</folder>
+				<folder name="USERS">
+					<child name="CreateUser" key="{D31CBA02-463D-47E6-8E3C-CDD9BE919737}" path="CreateUser.tcKDTest" />
+				</folder>
 			</folder>
 			<folder name="LoginLogout">
 				<child name="LoginHubNoInt" key="{93C26022-E9B6-4028-8B95-1D7F2F1AFD6E}" path="LoginHubNoInt.tcKDTest" />
@@ -131,6 +135,7 @@
 				<child name="VerifyGmailBooked" key="{433057F7-174D-49B8-B57E-6BFA289E39D7}" path="VerifyGmailBooked.tcKDTest" />
 				<child name="CreateYopmailEmail" key="{442855D9-B666-436C-A104-CD0C7F19A2EE}" path="CreateYopmailEmail.tcKDTest" />
 				<child name="VerifyEmailRegistration" key="{B6975245-7141-41A2-AA81-38F29B3D88D7}" path="VerifyEmailRegistration.tcKDTest" />
+				<child name="VerifyEmailAccountCreatation" key="{F64D2DAC-3F73-44A1-95EF-7064795388E1}" path="VerifyEmailAccountCreatation.tcKDTest" />
 			</folder>
 		</folder>
 	</children>

@@ -77,6 +77,9 @@
 					<Node name="var23">
 						<Prp name="name" type="S" value="Password2"/>
 					</Node>
+					<Node name="var24">
+						<Prp name="name" type="S" value="userPortalPass"/>
+					</Node>
 					<Node name="var3">
 						<Prp name="name" type="S" value="offersPortal"/>
 					</Node>

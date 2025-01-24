@@ -871,6 +871,21 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="buttonCreateUser" Key="{F554FB1C-DFCD-4F2C-9959-C28A89D25E3A}">
+										<Image FileName="794827090" Left="551" Top="469" Right="637" Bottom="499" />
+										<TypeInfo Item0="{3144A3F4-849C-4930-A907-26B495C6FA28}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Create User&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageNewQuotationMagayaDigitalFre" Key="{E8FA6234-E90E-4718-87E5-242D5315E7B5}">
@@ -2747,6 +2762,30 @@
 											</Selector>
 											<Selector>
 												<Value Value="//nav/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAccount" Key="{1EA650CC-1E5B-4D36-A3F7-AB8CE1D86BFC}">
+										<Image FileName="689312546" Left="536" Top="363" Right="1433" Bottom="386" />
+										<TypeInfo Item0="{B96B5BC7-5AC0-4334-A843-2C0B052800E3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#account" />
+											</Selector>
+											<Selector>
+												<Value Value="//h5[.=&apos;Account&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h5[contains(@class, &apos;mb-4&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkUsers" Key="{FDAD1CFC-E112-4B81-BB84-E9BCAE04CA0B}">
+										<Image FileName="1543729993" Left="639" Top="302" Right="732" Bottom="341" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav/a[2]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -6357,6 +6396,71 @@
 													</Selector>
 												</Selectors>
 											</Child>
+											<Child Name="panelYourAccountHasBeenCreated" Key="{D6D362A9-702E-4C53-8F0E-2E413B1F3D38}">
+												<Image FileName="311914172" Left="583" Top="266" Right="959" Bottom="287" />
+												<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[.=&apos;🚀 Your account has been created | Magaya&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[contains(@class, &apos;ellipsis&apos;)]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeS4c3ydXamu78h" Key="{243808D4-E666-4EA5-9DAB-85FC7749BF73}">
+												<Image FileName="311914172" Left="617" Top="788" Right="774" Bottom="809" />
+												<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//strong[.=&apos;S4c3yD#@XAMU78h&apos;]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="linkLoginToMagaya" Key="{EE4B8EC1-B84A-492E-965A-BBB0E56858A3}">
+												<Image FileName="478652448" Left="804" Top="841" Right="937" Bottom="872" />
+												<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//a[.=&apos;Login to Magaya&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;mail&apos;]//td//tr/td//tr/td/a" />
+													</Selector>
+													<Selector>
+														<Value Value="//td//tr/td//tr/td/a" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="frameIfinbox" Key="{052A23E3-3F72-4433-B170-EE517B4687FF}">
+										<Image FileName="-92305619" Left="168" Top="309" Right="563" Bottom="996" />
+										<TypeInfo Item0="{BEE28F38-135B-4D71-A76B-5AAABF130D98}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ifinbox" />
+											</Selector>
+											<Selector>
+												<Value Value="//iframe[@name=&apos;ifinbox&apos;]" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="button1701" Key="{835E1A66-F2A2-4CA6-8D76-567596A92F8B}">
+												<Image FileName="-92305619" Left="206" Top="339" Right="553" Bottom="401" />
+												<TypeInfo Item0="{3144A3F4-849C-4930-A907-26B495C6FA28}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//button[contains(., &apos;17:01&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//button[contains(@class, &apos;lm&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//button" />
+													</Selector>
+												</Selectors>
+											</Child>
 										</Children>
 									</Child>
 								</Children>
@@ -6409,6 +6513,130 @@
 											</Selector>
 											<Selector>
 												<Value Value="//qw-confirm-email//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageYopmailDisposableEmailAddres" Key="{69AA6805-7717-42E9-9EBA-096EBB120FD6}">
+								<Image FileName="-441618891" Left="8" Top="147" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{F9917A92-66F4-4D9C-9318-593F4EBC140F}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://yopmail.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formF" Key="{FEEF3FF1-740F-4833-A556-CE95E1F85D63}">
+										<Image FileName="-441618891" Left="321" Top="527" Right="716" Bottom="567" />
+										<TypeInfo Item0="{B96B5BC7-5AC0-4334-A843-2C0B052800E3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#f" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@action=&apos;.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxLogin" Key="{05956F59-C190-4B92-A889-8EAABF37E6EF}">
+										<Image FileName="-441618891" Left="350" Top="536" Right="654" Bottom="559" />
+										<TypeInfo Item0="{56EA3786-F97E-483C-9D9E-489A615578EF}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#login" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;aylinstaging&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;ycptinput&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ycptcpt&apos;]//div/div/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonCheckInboxYopmailCom" Key="{A73D6265-DF42-49BB-8D0D-9820B56B53D1}">
+										<Image FileName="1095471604" Left="679" Top="529" Right="715" Bottom="565" />
+										<TypeInfo Item0="{3144A3F4-849C-4930-A907-26B495C6FA28}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@title=&apos;Check Inbox @yopmail.com&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//button[contains(@class, &apos;md&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;refreshbut&apos;]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageYopmailDisposableEmailAddres2" Key="{A9A6D863-D255-4767-95DA-FF5BDE533A7B}">
+								<Image FileName="870462697" Left="8" Top="147" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{F9917A92-66F4-4D9C-9318-593F4EBC140F}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://yopmail.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formF" Key="{C6133DC4-7580-4A3B-A8C9-F1DC444C89D0}">
+										<Image FileName="870462697" Left="321" Top="527" Right="716" Bottom="567" />
+										<TypeInfo Item0="{B96B5BC7-5AC0-4334-A843-2C0B052800E3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#f" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@action=&apos;.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxLogin" Key="{0F8B484F-7C33-48B1-9ABA-D362B62EC2A8}">
+										<Image FileName="870462697" Left="350" Top="536" Right="654" Bottom="559" />
+										<TypeInfo Item0="{56EA3786-F97E-483C-9D9E-489A615578EF}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#login" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;jan23170016&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;ycptinput&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ycptcpt&apos;]//div/div/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/input" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -6601,6 +6829,57 @@
 											</Selector>
 											<Selector>
 												<Value Value="//ul/li[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox" Key="{18ACDA6A-701F-46AE-BA49-D133FA98AFC0}">
+										<Image FileName="-1255668733" Left="134" Top="351" Right="400" Bottom="381" />
+										<TypeInfo Item0="{651DEC13-C3FC-47A7-B9F9-218820B50778}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//th[2]/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[2]/input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pn_id_43-table&apos;]//th[2]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSearch" Key="{972485CE-E42A-4670-BAB1-7FCE0C7058EC}">
+										<Image FileName="1950296897" Left="1749" Top="351" Right="1807" Bottom="381" />
+										<TypeInfo Item0="{F733B336-0E81-4E53-93E9-417D3C50A5BC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Search&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th/button[contains(@class, &apos;btn-primary&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkAutomation" Key="{195E47DE-FB24-432F-A106-A72C06AAB2B2}">
+										<Image FileName="207071973" Left="134" Top="405" Right="207" Bottom="422" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td/a[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Automation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pn_id_43-table&apos;]//td/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//td/a" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -6988,6 +7267,557 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageMagayaDigitalFreightPortalHu6" Key="{ADFD359A-4907-4BC3-84CB-56B531E429AD}">
+								<Image FileName="1328328474" Left="0" Top="139" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://*.qwykportals.com/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionQwyk" Key="{4F0DFCD4-63E3-427C-86AF-4A4411AA32D3}">
+										<Image FileName="666667033" Left="50" Top="139" Right="1903" Bottom="1094" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Qwyk&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;page-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonCreateUser" Key="{A4144B80-D6F7-4CE4-82BC-8E4E3117D2D6}">
+										<Image FileName="666667033" Left="543" Top="461" Right="629" Bottom="491" />
+										<TypeInfo Item0="{F733B336-0E81-4E53-93E9-417D3C50A5BC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Create User&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navDashboard" Key="{102D58AE-0230-49AA-954D-2647F8B812E0}">
+										<Image FileName="-1427779493" Left="0" Top="139" Right="1920" Bottom="218" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Dashboard&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;qwyk-navbar&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-navigation-bar/nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSignIn" Key="{50A27C41-82E6-43A8-97A7-DF2FC71EC228}">
+										<Image FileName="-1427779493" Left="1319" Top="157" Right="1545" Bottom="199" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Sign in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;mt-3&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSignIn2" Key="{0B31B708-EDA4-4DCA-8014-71DBEB4BF1EC}">
+										<Image FileName="-1427779493" Left="1362" Top="157" Right="1444" Bottom="199" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Sign in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;mr-lg-2&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSignIn" Key="{14770835-9959-403E-AE5F-22BF782912CE}">
+										<Image FileName="-1427779493" Left="1362" Top="157" Right="1444" Bottom="199" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Sign in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[2]/li/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[2]/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionGoodAfternoonJan23170055n" Key="{29AC2DAA-ADFB-45E4-809E-2F73D0E17AC4}">
+										<Image FileName="-44759115" Left="220" Top="139" Right="1920" Bottom="1040" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Good afternoon Jan23170055Name&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;page-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHereIsASnapshotOfWhatS" Key="{7D18F2BB-89BC-4B68-96B7-7DDC4F6EC066}">
+										<Image FileName="-44759115" Left="244" Top="260" Right="1879" Bottom="282" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;staticDashboard&apos;]//p" />
+											</Selector>
+											<Selector>
+												<Value Value="//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeJan23173959name" Key="{C5B4113B-82B8-440B-9125-BFD9D0A252F7}">
+										<Image FileName="1000349930" Left="1356" Top="157" Right="1545" Bottom="199" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[.=&apos;Jan23173959Name&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkJan23173959name" Key="{FF5CA979-C497-45DD-B43B-F1EB9ECB108B}">
+										<Image FileName="1000349930" Left="1356" Top="157" Right="1545" Bottom="199" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Jan23173959Name&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[2]/li/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[2]/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeJan23173959name2" Key="{88FF31F6-0AA9-4140-B8EE-2B2D34198860}">
+										<Image FileName="1000349930" Left="1373" Top="168" Right="1514" Bottom="187" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//span[contains(normalize-space(text()), &apos;Name&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageMagayaDigitalFreightPortalHu7" Key="{413F635A-DB22-48B2-BFA7-15D92592539D}">
+								<Image FileName="1328328474" Left="0" Top="139" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://hub.next.qwykportals.com/administration/portal-users/new*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formAccount" Key="{068A413B-0637-4C89-A65B-FDD17883E1A9}">
+										<Image FileName="-1824336326" Left="528" Top="298" Right="1425" Bottom="1477" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Account&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;ng-untouched&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="emailinputEmailAddress" Key="{AD2D2093-E86C-426F-9FC8-08BFDB301DD4}">
+										<Image FileName="1729846930" Left="528" Top="373" Right="1425" Bottom="409" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Email address&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#email" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxPassword" Key="{B2F01D49-9ED8-42D2-8A25-C067675C5071}">
+										<Image FileName="-1824336326" Left="528" Top="453" Right="1386" Bottom="489" />
+										<TypeInfo Item0="{651DEC13-C3FC-47A7-B9F9-218820B50778}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//input[@id=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Password&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#password" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-customer-user-create/form/div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{C5946B62-FE50-49B7-AA35-03DE0CFFB9E5}">
+										<Image FileName="-489544735" Left="1399" Top="525" Right="1424" Bottom="547" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//qwyk-customer-user-create/form/div[5]/ng-select//span[contains(@class, &apos;ng-arrow-wrapper&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMagayaQa" Key="{3494EB8D-69F2-4D71-A2A6-FE25DAB58F6D}">
+										<Image FileName="-1410892186" Left="539" Top="563" Right="613" Bottom="581" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;ng-option-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ng-select[@id=&apos;registered_site_id&apos;]//ng-dropdown-panel/div/div/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[5]/ng-select/ng-dropdown-panel[@role=&apos;listbox&apos;]//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxName" Key="{CFFFA1B7-92DB-49EF-A345-B1EA6D6C0D2F}">
+										<Image FileName="10856317" Left="528" Top="781" Right="1425" Bottom="817" />
+										<TypeInfo Item0="{651DEC13-C3FC-47A7-B9F9-218820B50778}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Name&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#name" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;name&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[7]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonCreateUser" Key="{AA4653B7-BA73-446D-B361-BD2747DADD6E}">
+										<Image FileName="-1839601724" Left="1296" Top="943" Right="1424" Bottom="979" />
+										<TypeInfo Item0="{F733B336-0E81-4E53-93E9-417D3C50A5BC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Create User&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-customer-user-create/form//button[contains(@class, &apos;btn-primary&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxCompany" Key="{31B88CC5-F70B-4EFD-A0CE-3BC1F9CBCCB3}">
+										<Image FileName="723048035" Left="528" Top="563" Right="971" Bottom="599" />
+										<TypeInfo Item0="{651DEC13-C3FC-47A7-B9F9-218820B50778}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Company&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#company_name" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;company_name&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[8]/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelIConfirmThatCreatingThis" Key="{8BFAD878-AA71-4B8E-973E-546DBF647801}">
+										<Image FileName="549729223" Left="562" Top="889" Right="1262" Bottom="911" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;Learn more&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-customer-user-create/form/div[12]//label[contains(@class, &apos;custom-control-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[12]/div/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageMagayaDigitalFreightPortalHu8" Key="{D9CEA374-D08B-4D43-910F-4652CACA25AA}">
+								<Image FileName="1328328474" Left="0" Top="139" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://hub.next.qwykportals.com/administration/portal-users/362576ca-a902-469b-ba05-9491d3662d6e" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodePortalUser" Key="{347FF6D4-5338-4C46-A48F-C2E1E6A0E123}">
+										<Image FileName="-1587904402" Left="528" Top="308" Right="660" Bottom="340" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h3[.=&apos;Portal User&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[contains(@class, &apos;font-weight-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formAccount" Key="{6A8F175A-59AD-4425-99C4-7C162767E2D7}">
+										<Image FileName="-1587904402" Left="528" Top="355" Right="1425" Bottom="1451" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Account&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;ng-untouched&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAccount" Key="{C7A682AD-F3DE-4A68-B94D-6365C87F3763}">
+										<Image FileName="-1587904402" Left="528" Top="355" Right="1425" Bottom="378" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//h5[@id=&apos;account&apos; and contains(normalize-space(text()), &apos;Account&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h5[.=&apos;Account&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#account" />
+											</Selector>
+											<Selector>
+												<Value Value="//h5[contains(@class, &apos;mb-4&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageYopmailDisposableEmailAddres" Key="{1EDE95A8-BC1B-47BA-B88F-33369B267513}">
+								<Image FileName="-1770573506" Left="0" Top="139" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://yopmail.com/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="frameAswift6" Key="{A0E5D39D-A7F4-4DBE-9E09-4195262DF727}">
+										<Image FileName="-1770573506" Left="0" Top="139" Right="1920" Bottom="1040" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#aswift_6" />
+											</Selector>
+											<Selector>
+												<Value Value="//iframe[@name=&apos;aswift_6&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//html/ins/div/iframe[@aria-label=&apos;Advertisement&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//html/ins/div/iframe[@title=&apos;Advertisement&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;aswift_6_host&apos;]/iframe" />
+											</Selector>
+											<Selector>
+												<Value Value="//html/ins/div/iframe" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formF" Key="{7C90212B-85F5-4710-94A6-09ACCDEA7D97}">
+										<Image FileName="-726448155" Left="313" Top="519" Right="708" Bottom="559" />
+										<Selectors>
+											<Selector>
+												<Value Value="#f" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@action=&apos;.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxLogin" Key="{223816DB-54A3-48FA-9A4B-DC49E1D0D532}">
+										<Image FileName="-726448155" Left="342" Top="528" Right="646" Bottom="551" />
+										<TypeInfo Item0="{651DEC13-C3FC-47A7-B9F9-218820B50778}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#login" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;jan23170016&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;ycptinput&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ycptcpt&apos;]//div/div/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonCheckInboxYopmailCom" Key="{D2D572DA-9A59-4BC4-A677-89A607132506}">
+										<Image FileName="1107188152" Left="671" Top="521" Right="707" Bottom="557" />
+										<TypeInfo Item0="{F733B336-0E81-4E53-93E9-417D3C50A5BC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@title=&apos;Check Inbox @yopmail.com&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//button[contains(@class, &apos;md&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;refreshbut&apos;]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="frameIfinbox" Key="{8B5655B5-C6A5-4252-B0AC-7967FA6FDCC1}">
+										<Image FileName="2069957126" Left="160" Top="301" Right="555" Bottom="988" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ifinbox" />
+											</Selector>
+											<Selector>
+												<Value Value="//iframe[@name=&apos;ifinbox&apos;]" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="button1701" Key="{B251D647-692A-487F-ACF8-4421AC27A97F}">
+												<Image FileName="2069957126" Left="198" Top="331" Right="545" Bottom="393" />
+												<TypeInfo Item0="{F733B336-0E81-4E53-93E9-417D3C50A5BC}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//button[contains(@class, &apos;lm&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//button" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="frameIfmail" Key="{3C5E91D8-3F8E-425C-9371-1399B5933282}">
+										<Image FileName="-1827040848" Left="575" Top="256" Right="1760" Bottom="987" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ifmail" />
+											</Selector>
+											<Selector>
+												<Value Value="//iframe[@name=&apos;ifmail&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wmmailmain&apos;]/iframe" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/div/iframe" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="panelYourAccountHasBeenCreated" Key="{98828B7B-2C53-4195-B7F6-FD47C37E5A14}">
+												<Image FileName="-125079920" Left="583" Top="266" Right="959" Bottom="287" />
+												<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[.=&apos;🚀 Your account has been created | Magaya&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[contains(@class, &apos;ellipsis&apos;)]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeJan23170016YopmailCom" Key="{629F1AE5-7897-4BA4-977C-160F6F8F0E5B}">
+												<Image FileName="-125079920" Left="617" Top="716" Right="826" Bottom="737" />
+												<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//strong[.=&apos;jan23170016@yopmail.com&apos;]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeS4c3ydXamu78h" Key="{50FB51B1-8E98-4485-A5FC-6D69CBCBCD0D}">
+												<Image FileName="-125079920" Left="617" Top="788" Right="774" Bottom="809" />
+												<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+												<Selectors>
+													<Selector>
+														<Value Value="" />
+													</Selector>
+													<Selector>
+														<Value Value="xpath=(//strong[contains(@style, &apos;position: relative&apos;)])[3]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="linkLoginToMagaya" Key="{2878F0DE-6B62-4AA6-B7A7-F682F4BA4396}">
+												<Image FileName="-2009603816" Left="804" Top="841" Right="937" Bottom="872" />
+												<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//a[.=&apos;Login to Magaya&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;mail&apos;]//td//tr/td//tr/td/a" />
+													</Selector>
+													<Selector>
+														<Value Value="//td//tr/td//tr/td/a" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -7093,6 +7923,7 @@
 					<Child Name="buttonExcel" Owner="{DB7B437F-5649-473E-9F80-BEDDA485F4BC}" />
 					<Child Name="panel12Of2" Owner="{8F49686C-C35A-4015-88D1-FBFB1A7B651B}" />
 					<Child Name="cell5" Owner="{EA1C4243-40E8-43C7-A63E-C0F0381F6436}" />
+					<Child Name="buttonCreateUser" Owner="{F554FB1C-DFCD-4F2C-9959-C28A89D25E3A}" />
 				</Child>
 			</Child>
 			<Child Name="pageNewQuotationMagayaDigitalFre" Owner="{E8FA6234-E90E-4718-87E5-242D5315E7B5}">
@@ -7149,6 +7980,7 @@
 					<Child Name="cell2" Owner="{6B7C683D-020E-4CF2-8E5F-879745A101D0}" />
 					<Child Name="navOverview" Owner="{C6293E14-2D64-4142-8BDF-BDA41858EF97}">
 						<Child Name="linkOverview" Owner="{2503D672-311A-49DF-9A7D-DB54FE82C972}" />
+						<Child Name="linkUsers" Owner="{FDAD1CFC-E112-4B81-BB84-E9BCAE04CA0B}" />
 					</Child>
 				</Child>
 				<Child Name="buttonYes" Owner="{3E3B0AB3-C5CB-4400-B3C0-2B617C35629C}" />
@@ -7206,6 +8038,7 @@
 						</Child>
 						<Child Name="buttonApply" Owner="{0FFBAF94-E129-4A67-BB99-AEF4E36E0856}" />
 						<Child Name="textboxName" Owner="{1A484E3D-7B03-4D03-BC85-4C87A5363E81}" />
+						<Child Name="textnodeAccount" Owner="{1EA650CC-1E5B-4D36-A3F7-AB8CE1D86BFC}" />
 					</Child>
 					<Child Name="panelSalesRadar" Owner="{A05FAB07-8661-4635-860E-5A68F2CDB364}" />
 					<Child Name="textnode1d" Owner="{854D6127-B6F8-4B64-8CCB-EF08AB7E72A4}">
@@ -7582,12 +8415,29 @@
 			<Child Name="pageInbox" Owner="{FE3DE332-90A9-438A-BCD2-4FE199B032FB}">
 				<Child Name="frameIfmail" Owner="{B8DB5CCB-9008-4D0D-9A7A-80D904F087AD}">
 					<Child Name="panelPleaseConfirmYourEmail" Owner="{054C82F9-52D9-4540-B655-77612ED730FB}" />
+					<Child Name="panelYourAccountHasBeenCreated" Owner="{D6D362A9-702E-4C53-8F0E-2E413B1F3D38}" />
+					<Child Name="textnodeS4c3ydXamu78h" Owner="{243808D4-E666-4EA5-9DAB-85FC7749BF73}" />
+					<Child Name="linkLoginToMagaya" Owner="{EE4B8EC1-B84A-492E-965A-BBB0E56858A3}" />
+				</Child>
+				<Child Name="frameIfinbox" Owner="{052A23E3-3F72-4433-B170-EE517B4687FF}">
+					<Child Name="button1701" Owner="{835E1A66-F2A2-4CA6-8D76-567596A92F8B}" />
 				</Child>
 			</Child>
 			<Child Name="pageMagayaQa" Owner="{1EF5B05C-75B6-4AD4-8031-6BA67C34F006}">
 				<Child Name="textnodeConfirmYourEmail" Owner="{4E58CDC3-9F50-40A5-826E-538EDAC0C0A4}" />
 				<Child Name="panelYourEmailAddressHasBeen" Owner="{10755850-3493-4BB4-BF25-4D85DB1CFF18}" />
 				<Child Name="buttonContinueToSignIn" Owner="{A2EE7422-FED4-4EED-82D3-94D499D08003}" />
+			</Child>
+			<Child Name="pageYopmailDisposableEmailAddres" Owner="{69AA6805-7717-42E9-9EBA-096EBB120FD6}">
+				<Child Name="formF" Owner="{FEEF3FF1-740F-4833-A556-CE95E1F85D63}">
+					<Child Name="textboxLogin" Owner="{05956F59-C190-4B92-A889-8EAABF37E6EF}" />
+					<Child Name="buttonCheckInboxYopmailCom" Owner="{A73D6265-DF42-49BB-8D0D-9820B56B53D1}" />
+				</Child>
+			</Child>
+			<Child Name="pageYopmailDisposableEmailAddres2" Owner="{A9A6D863-D255-4767-95DA-FF5BDE533A7B}">
+				<Child Name="formF" Owner="{C6133DC4-7580-4A3B-A8C9-F1DC444C89D0}">
+					<Child Name="textboxLogin" Owner="{0F8B484F-7C33-48B1-9ABA-D362B62EC2A8}" />
+				</Child>
 			</Child>
 		</Child>
 		<Child Name="chrome" Owner="{924B17E8-5E13-4D4A-92FC-5C01A0BDA1D4}">
@@ -7635,6 +8485,61 @@
 				</Child>
 			</Child>
 			<Child Name="pageMagayaDigitalFreightPortalHu5" Owner="{CA0203CA-67F9-4D83-B0F9-53D25D8E6111}" />
+			<Child Name="pageMagayaDigitalFreightPortalHu6" Owner="{ADFD359A-4907-4BC3-84CB-56B531E429AD}">
+				<Child Name="sectionQwyk" Owner="{4F0DFCD4-63E3-427C-86AF-4A4411AA32D3}">
+					<Child Name="buttonCreateUser" Owner="{A4144B80-D6F7-4CE4-82BC-8E4E3117D2D6}" />
+					<Child Name="formAccount" Owner="{068A413B-0637-4C89-A65B-FDD17883E1A9}">
+						<Child Name="emailinputEmailAddress" Owner="{AD2D2093-E86C-426F-9FC8-08BFDB301DD4}" />
+						<Child Name="textboxPassword" Owner="{B2F01D49-9ED8-42D2-8A25-C067675C5071}" />
+						<Child Name="textnode" Owner="{C5946B62-FE50-49B7-AA35-03DE0CFFB9E5}" />
+						<Child Name="textnodeMagayaQa" Owner="{3494EB8D-69F2-4D71-A2A6-FE25DAB58F6D}" />
+						<Child Name="textboxName" Owner="{CFFFA1B7-92DB-49EF-A345-B1EA6D6C0D2F}" />
+						<Child Name="buttonCreateUser" Owner="{AA4653B7-BA73-446D-B361-BD2747DADD6E}" />
+						<Child Name="textboxCompany" Owner="{31B88CC5-F70B-4EFD-A0CE-3BC1F9CBCCB3}" />
+						<Child Name="labelIConfirmThatCreatingThis" Owner="{8BFAD878-AA71-4B8E-973E-546DBF647801}" />
+					</Child>
+					<Child Name="textbox" Owner="{18ACDA6A-701F-46AE-BA49-D133FA98AFC0}" />
+					<Child Name="buttonSearch" Owner="{972485CE-E42A-4670-BAB1-7FCE0C7058EC}" />
+					<Child Name="linkAutomation" Owner="{195E47DE-FB24-432F-A106-A72C06AAB2B2}" />
+					<Child Name="textnodePortalUser" Owner="{347FF6D4-5338-4C46-A48F-C2E1E6A0E123}" />
+					<Child Name="formAccount2" Owner="{6A8F175A-59AD-4425-99C4-7C162767E2D7}">
+						<Child Name="textnodeAccount" Owner="{C7A682AD-F3DE-4A68-B94D-6365C87F3763}" />
+					</Child>
+				</Child>
+				<Child Name="navDashboard" Owner="{102D58AE-0230-49AA-954D-2647F8B812E0}">
+					<Child Name="textnodeSignIn" Owner="{50A27C41-82E6-43A8-97A7-DF2FC71EC228}">
+						<Child Name="textnodeSignIn2" Owner="{0B31B708-EDA4-4DCA-8014-71DBEB4BF1EC}">
+							<Child Name="linkSignIn" Owner="{14770835-9959-403E-AE5F-22BF782912CE}" />
+						</Child>
+					</Child>
+					<Child Name="textnodeJan23173959name" Owner="{C5B4113B-82B8-440B-9125-BFD9D0A252F7}">
+						<Child Name="linkJan23173959name" Owner="{FF5CA979-C497-45DD-B43B-F1EB9ECB108B}">
+							<Child Name="textnodeName" Owner="{88FF31F6-0AA9-4140-B8EE-2B2D34198860}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="sectionGoodAfternoonJan23170055n" Owner="{29AC2DAA-ADFB-45E4-809E-2F73D0E17AC4}">
+					<Child Name="textnodeHereIsASnapshotOfWhatS" Owner="{7D18F2BB-89BC-4B68-96B7-7DDC4F6EC066}" />
+				</Child>
+			</Child>
+			<Child Name="pageMagayaDigitalFreightPortalHu7" Owner="{413F635A-DB22-48B2-BFA7-15D92592539D}" />
+			<Child Name="pageMagayaDigitalFreightPortalHu8" Owner="{D9CEA374-D08B-4D43-910F-4652CACA25AA}" />
+			<Child Name="pageYopmailDisposableEmailAddres" Owner="{1EDE95A8-BC1B-47BA-B88F-33369B267513}">
+				<Child Name="frameAswift6" Owner="{A0E5D39D-A7F4-4DBE-9E09-4195262DF727}" />
+				<Child Name="formF" Owner="{7C90212B-85F5-4710-94A6-09ACCDEA7D97}">
+					<Child Name="textboxLogin" Owner="{223816DB-54A3-48FA-9A4B-DC49E1D0D532}" />
+					<Child Name="buttonCheckInboxYopmailCom" Owner="{D2D572DA-9A59-4BC4-A677-89A607132506}" />
+				</Child>
+				<Child Name="frameIfinbox" Owner="{8B5655B5-C6A5-4252-B0AC-7967FA6FDCC1}">
+					<Child Name="selectEmail" Owner="{B251D647-692A-487F-ACF8-4421AC27A97F}" />
+				</Child>
+				<Child Name="frameIfmail" Owner="{3C5E91D8-3F8E-425C-9371-1399B5933282}">
+					<Child Name="panelYourAccountHasBeenCreated" Owner="{98828B7B-2C53-4195-B7F6-FD47C37E5A14}" />
+					<Child Name="textnodeJan23170016YopmailCom" Owner="{629F1AE5-7897-4BA4-977C-160F6F8F0E5B}" />
+					<Child Name="textnodePassword" Owner="{50FB51B1-8E98-4485-A5FC-6D69CBCBCD0D}" />
+					<Child Name="linkLoginToMagaya" Owner="{2878F0DE-6B62-4AA6-B7A7-F682F4BA4396}" />
+				</Child>
+			</Child>
 		</Child>
 	</LogicalNodes>
 </Root>
