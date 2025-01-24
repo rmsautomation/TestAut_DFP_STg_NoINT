@@ -6353,6 +6353,18 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panel" Key="{1FB23A11-89BB-4295-B0E1-52DA0CE76D98}">
+										<Image FileName="-680380470" Left="261" Top="620" Right="546" Bottom="637" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(text(), &apos;Quotation created by&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-activity-event-list-item/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageInbox" Key="{FE3DE332-90A9-438A-BCD2-4FE199B032FB}">
@@ -7511,6 +7523,18 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelQuotationPublishedByAylin" Key="{FEC7F777-B562-4CD1-80D6-B046BD0D72DE}">
+										<Image FileName="-371543082" Left="261" Top="661" Right="506" Bottom="678" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(text(), &apos;Quotation published by&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-activity-event-list-item/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagayaDigitalFreightPortalHu7" Key="{413F635A-DB22-48B2-BFA7-15D92592539D}">
@@ -8599,6 +8623,7 @@
 						<Child Name="linkRequests" Owner="{79F7AEC1-08A1-4C91-BDDF-EF04588FAC79}" />
 					</Child>
 					<Child Name="buttonCloseWithoutOffer" Owner="{2C9E594E-522A-4AFA-B1B7-F2C1AAC7AC5F}" />
+					<Child Name="panelCreatedBy" Owner="{1FB23A11-89BB-4295-B0E1-52DA0CE76D98}" />
 				</Child>
 				<Child Name="textnodePrId3List" Owner="{261637C1-8C49-4A30-A141-92AA122B1982}">
 					<Child Name="textnodeHubQuotationsStatusOpen" Owner="{98D1692D-D89F-486E-A84E-997275A025FA}">
@@ -8754,6 +8779,7 @@
 					<Child Name="navSummary" Owner="{FFC5399B-0C8B-468B-8FF0-C468FEDE8009}">
 						<Child Name="linkOffers" Owner="{D7BA0C45-C7A4-42C9-825A-AF4A1576F98E}" />
 					</Child>
+					<Child Name="panelQuotationPublishedByAylin" Owner="{FEC7F777-B562-4CD1-80D6-B046BD0D72DE}" />
 				</Child>
 				<Child Name="navDashboard" Owner="{102D58AE-0230-49AA-954D-2647F8B812E0}">
 					<Child Name="textnodeSignIn" Owner="{50A27C41-82E6-43A8-97A7-DF2FC71EC228}">
