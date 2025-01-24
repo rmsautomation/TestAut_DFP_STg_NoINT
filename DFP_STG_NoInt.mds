@@ -99,6 +99,16 @@
 				<environments activeCloud="CBT" />
 				<children />
 			</testItem>
+			<testItem name="TC_19_1482_HUBCreateCustomer" key="{B5D44C4C-130C-4D14-AC55-4B47E45A77A0}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C94404C1-63CC-48CC-8410-0662B5259A09}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_20_1483_HUBCustomerCreateUser" key="{864BD2E0-569B-4515-810C-0F95106725F8}" group="False" parallel="False" enabled="True" testMoniker="KDT\{12CE17C3-55A8-4C1E-8128-EBE3628FEA5E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
 			<testItem name="TC_21_272_NewUserRegistration" key="{B77F850C-E098-439E-B629-CA654CB78CA3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{3EF02067-FFB4-4D81-B4F2-7AB14AD08A1D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="CBT" />
