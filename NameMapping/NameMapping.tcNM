@@ -7818,6 +7818,159 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageSignInGoogleAccounts" Key="{F58E4532-5A02-475A-B14A-6A2C1E72A2FE}">
+								<Image FileName="2030375721" Left="0" Top="139" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://accounts.google.com/v3/signin/identifier*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionEmailOrPhone" Key="{8E2517DE-B90A-4903-AC0E-A2A064ED35DC}">
+										<Image FileName="2030375721" Left="776" Top="544" Right="1144" Bottom="640" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Email or phone&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;aTzEhb&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;yDmH0d&apos;]//section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="emailinputEmailOrPhone" Key="{C7B5C65A-66F2-4415-8022-BFE5194593AD}">
+										<Image FileName="2030375721" Left="778" Top="554" Right="1142" Bottom="606" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#identifierId" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;identifier&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//input[contains(@class, &apos;whsOnd&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;yDmH0d&apos;]//div//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonNext" Key="{D9525383-B413-4E6D-BF05-B00F5E6940F8}">
+										<Image FileName="-1176630878" Left="1065" Top="762" Right="1144" Bottom="798" />
+										<TypeInfo Item0="{F733B336-0E81-4E53-93E9-417D3C50A5BC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Next&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/div/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/div/button[contains(@class, &apos;VfPpkd-LgbsSe&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;identifierNext&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSignInGoogleAccounts2" Key="{AF976423-FBFE-424C-A2D0-D7B8FD5741DC}">
+								<Image FileName="2030375721" Left="0" Top="139" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://accounts.google.com/v3/signin/challenge/pwd*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionEnterYourPassword" Key="{FB7F8667-282D-495C-ACCD-E6F51D637835}">
+										<Image FileName="-1569346656" Left="776" Top="547" Right="1144" Bottom="673" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Enter your password&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxEnterYourPassword" Key="{13F9C57D-3ABA-4B0B-957F-129F7400754C}">
+										<Image FileName="-1569346656" Left="778" Top="573" Right="1142" Bottom="625" />
+										<TypeInfo Item0="{651DEC13-C3FC-47A7-B9F9-218820B50778}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;Passwd&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//input[contains(@class, &apos;whsOnd&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;password&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[2]/div/div/div/div//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="checkboxShowPassword" Key="{D9E605CF-DF64-4FB4-8BE4-B947FFE43D1D}">
+										<Image FileName="1274588725" Left="764" Top="623" Right="812" Bottom="671" />
+										<TypeInfo Item0="{A6C03EF9-ACB5-48B6-A11E-06D90F872655}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@aria-labelledby=(//div[text()=&apos;Show password&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;checkbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonNext" Key="{767A3238-AC10-4C1C-918E-B135CB4D69FB}">
+										<Image FileName="2007729042" Left="1065" Top="711" Right="1144" Bottom="747" />
+										<TypeInfo Item0="{F733B336-0E81-4E53-93E9-417D3C50A5BC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Next&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/div/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/div/button[contains(@class, &apos;VfPpkd-LgbsSe&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;passwordNext&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -8539,6 +8692,19 @@
 					<Child Name="textnodePassword" Owner="{50FB51B1-8E98-4485-A5FC-6D69CBCBCD0D}" />
 					<Child Name="linkLoginToMagaya" Owner="{2878F0DE-6B62-4AA6-B7A7-F682F4BA4396}" />
 				</Child>
+			</Child>
+			<Child Name="pageSignInGoogleAccounts" Owner="{F58E4532-5A02-475A-B14A-6A2C1E72A2FE}">
+				<Child Name="sectionEmailOrPhone" Owner="{8E2517DE-B90A-4903-AC0E-A2A064ED35DC}">
+					<Child Name="emailinputEmailOrPhone" Owner="{C7B5C65A-66F2-4415-8022-BFE5194593AD}" />
+				</Child>
+				<Child Name="buttonNext" Owner="{D9525383-B413-4E6D-BF05-B00F5E6940F8}" />
+			</Child>
+			<Child Name="pageSignInGoogleAccounts2" Owner="{AF976423-FBFE-424C-A2D0-D7B8FD5741DC}">
+				<Child Name="sectionEnterYourPassword" Owner="{FB7F8667-282D-495C-ACCD-E6F51D637835}">
+					<Child Name="passwordboxEnterYourPassword" Owner="{13F9C57D-3ABA-4B0B-957F-129F7400754C}" />
+					<Child Name="checkboxShowPassword" Owner="{D9E605CF-DF64-4FB4-8BE4-B947FFE43D1D}" />
+				</Child>
+				<Child Name="buttonNext" Owner="{767A3238-AC10-4C1C-918E-B135CB4D69FB}" />
 			</Child>
 		</Child>
 	</LogicalNodes>

@@ -3098,4 +3098,29 @@
 			</FunctionDescriptions>
 		</Data>
 	</Child>
+	<Child Hash="849114023" Key="{A6C03EF9-ACB5-48B6-A11E-06D90F872655}">
+		<Data Properties="1AE213F602B3AB41BD9F1AD908984617UFFFFFFFFFFFFFFFFV4L5ZZY">
+			<FunctionDescriptions>
+				<Child Name="ClickChecked" IsBasic="True" Param0="Checked" Data="ZI4L1L4L1Z018ZN">
+					<Param0>
+						<TypeDesc Param0="11" />
+						<ParamDesc Flags="1" />
+					</Param0>
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="Visible" IsBasic="True" Data="ZI4L2L4ZOBZN">
+					<ReturnValue Param0="11" />
+				</Child>
+				<Child Name="Width" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+					<ReturnValue Param0="19" />
+				</Child>
+				<Child Name="Height" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+					<ReturnValue Param0="19" />
+				</Child>
+				<Child Name="Enabled" IsBasic="True" Data="ZI4L2L4ZOBZN">
+					<ReturnValue Param0="11" />
+				</Child>
+			</FunctionDescriptions>
+		</Data>
+	</Child>
 </TypeInfo>
