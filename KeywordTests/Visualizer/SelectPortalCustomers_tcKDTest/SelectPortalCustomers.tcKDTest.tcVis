@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{8FBE3810-BA57-4AEE-857E-7B88EF8D4971}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45680.8437731481" objectName="Aliases.browser.pageQuotationMagayaDigitalFreigh.navQuotations.textnodeAdminPortal.linkAdministration.vgImg" objectLeft="15" objectTop="482" objectRight="33" objectBottom="496" clickPointX="26" clickPointY="485" imageFileName="tcvi1131302359127482.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45680.8437962963" objectName="Aliases.browser.pageQuotationMagayaDigitalFreigh.navQuotations.textnodeAdminPortal2.textnodeCustomers.linkCustomers" objectLeft="51" objectTop="559" objectRight="250" objectBottom="601" clickPointX="99" clickPointY="577" imageFileName="tcvi1131303843127483.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45680.843912037" objectName="Aliases.chrome.pageMagayaDigitalFreightPortalHu3.sectionQwyk.textnodePortalCustomers" objectLeft="65" objectTop="253" objectRight="272" objectBottom="285" clickPointX="209" clickPointY="272" imageFileName="tcvi1131313703127484.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

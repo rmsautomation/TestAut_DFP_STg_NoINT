@@ -24,6 +24,10 @@
 				<folder name="SHIPMENTS">
 					<child name="TC_16_HubShipmentsNoINTFilters" key="{6490693A-59FC-410D-915B-6DEAC4D78BF0}" path="TC_16_HubShipmentsNoINTFilters.tcKDTest" />
 				</folder>
+				<folder name="CUSTOMERS">
+					<child name="TC_19_1482_HUBCreateCustomer" key="{C94404C1-63CC-48CC-8410-0662B5259A09}" path="TC_19_1482_HUBCreateCustomer.tcKDTest" />
+					<child name="TC_20_1483_HUBCustomerCreateUser" key="{12CE17C3-55A8-4C1E-8128-EBE3628FEA5E}" path="TC_20_1483_HUBCustomerCreateUser.tcKDTest" />
+				</folder>
 			</folder>
 			<folder name="PORTAL">
 				<folder name="USER">
@@ -89,6 +93,13 @@
 				<folder name="HOME">
 					<child name="VerifyRegisterNotification" key="{79200BAD-DCF5-44B1-B9B0-294512FC497F}" path="VerifyRegisterNotification.tcKDTest" />
 				</folder>
+				<folder name="CUSTOMERS">
+					<child name="SelectPortalCustomers" key="{8FBE3810-BA57-4AEE-857E-7B88EF8D4971}" path="SelectPortalCustomers.tcKDTest" />
+					<child name="CreateCustomer" key="{AE02E45B-75F1-45FD-B397-16929451C83E}" path="CreateCustomer.tcKDTest" />
+				</folder>
+				<folder name="USERS">
+					<child name="CreateUser" key="{D31CBA02-463D-47E6-8E3C-CDD9BE919737}" path="CreateUser.tcKDTest" />
+				</folder>
 			</folder>
 			<folder name="LoginLogout">
 				<child name="LoginHubNoInt" key="{93C26022-E9B6-4028-8B95-1D7F2F1AFD6E}" path="LoginHubNoInt.tcKDTest" />
@@ -113,6 +124,7 @@
 					<child name="BookedQuoteVerifyShipment" key="{5BA54EE9-650C-4B9F-B9DA-2B9964E9FDB8}" path="BookedQuoteVerifyShipment.tcKDTest" />
 					<child name="VerifyNotifications" key="{CB441D23-626F-4CA7-B284-84C156A00F95}" path="VerifyNotifications.tcKDTest" />
 					<child name="VerifyBookedQuotePOrtal" key="{AFB48A2A-CBB2-4D99-9375-4619764CC727}" path="VerifyBookedQuotePOrtal.tcKDTest" />
+					<child name="VerifyRequested" key="{78B42C7A-E78D-436B-BF17-5C16DDB952F3}" path="VerifyRequested.tcKDTest" />
 				</folder>
 				<folder name="USER">
 					<child name="RegisterUser" key="{04DE4806-836C-47AF-B037-4396C89F2A40}" path="RegisterUser.tcKDTest" />
@@ -124,6 +136,7 @@
 				<child name="VerifyGmailBooked" key="{433057F7-174D-49B8-B57E-6BFA289E39D7}" path="VerifyGmailBooked.tcKDTest" />
 				<child name="CreateYopmailEmail" key="{442855D9-B666-436C-A104-CD0C7F19A2EE}" path="CreateYopmailEmail.tcKDTest" />
 				<child name="VerifyEmailRegistration" key="{B6975245-7141-41A2-AA81-38F29B3D88D7}" path="VerifyEmailRegistration.tcKDTest" />
+				<child name="VerifyEmailAccountCreatation" key="{F64D2DAC-3F73-44A1-95EF-7064795388E1}" path="VerifyEmailAccountCreatation.tcKDTest" />
 			</folder>
 		</folder>
 	</children>

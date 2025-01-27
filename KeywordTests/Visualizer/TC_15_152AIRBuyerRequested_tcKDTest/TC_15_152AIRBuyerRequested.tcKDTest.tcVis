@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{5595C67B-CAB3-41E6-823E-CC1E697CB772}">
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="13" kind="0" dateTime="45679.8491550926" objectName="Aliases.browser.pageMagaya.textnodePrId8List.textnodePHighlightedOption.textnodeRequest" objectLeft="642" objectTop="466" objectRight="733" objectBottom="490" clickPointX="707" clickPointY="481" imageFileName="tcvi111536626564680.png" storageFileName="" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="15" kind="0" dateTime="45679.8496296296" objectName="Aliases.browser.pageMagaya.sectionMyPortal.navSummary.linkRateRequests" objectLeft="779" objectTop="298" objectRight="955" objectBottom="338" clickPointX="884" clickPointY="315" imageFileName="tcvi111540734364680.png" storageFileName="" needUpdate="False" rectColor="255" />
-	</data>
+	<data key="{5595C67B-CAB3-41E6-823E-CC1E697CB772}" />
 </Root>

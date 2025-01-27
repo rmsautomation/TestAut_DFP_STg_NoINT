@@ -99,6 +99,21 @@
 				<environments activeCloud="CBT" />
 				<children />
 			</testItem>
+			<testItem name="TC_19_1482_HUBCreateCustomer" key="{B5D44C4C-130C-4D14-AC55-4B47E45A77A0}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C94404C1-63CC-48CC-8410-0662B5259A09}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_20_1483_HUBCustomerCreateUser" key="{864BD2E0-569B-4515-810C-0F95106725F8}" group="False" parallel="False" enabled="True" testMoniker="KDT\{12CE17C3-55A8-4C1E-8128-EBE3628FEA5E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_21_272_NewUserRegistration" key="{B77F850C-E098-439E-B629-CA654CB78CA3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{3EF02067-FFB4-4D81-B4F2-7AB14AD08A1D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
 		</children>
 	</testItems>
 	<variables key="{9751354A-7199-4DD3-8C4F-E272E447171B}">
@@ -175,6 +190,15 @@
 				</Variable>
 				<Variable Name="Password2" Type="Password" Local="False">
 					<DefValue StrValue="380039003600310031003300440030004600340044003800430042004600310038004300390038004300370039003600440041004600460030003300310043003000430033003300430041003200410030003500430045003200300045004100370045003300440038003100410036003500360038004400410042004300360036004600330042003900450041004200" />
+				</Variable>
+				<Variable Name="userPortalPass" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="Password3" Type="Password" Local="False">
+					<DefValue StrValue="380039003600310031003300440031004600340044003800370033004600300045004300390039004100370046003000460030004400320045004200320046004400430034003900440032003700410039003700360034003300310034004300360041004200420045003300320032003300370032003800" />
+				</Variable>
+				<Variable Name="Password4" Type="Password" Local="False">
+					<DefValue StrValue="3800390036003100310033004400330046003400440038003700330046003000450043003900390041003700460030004600300044003200450042003200460044004300340039004400320037004100390037003600340033003100340043003300410044004200440035003200300030003900320035004100370036003100" />
 				</Variable>
 			</Items>
 		</data>
