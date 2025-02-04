@@ -5470,10 +5470,10 @@
 										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//span[.=&apos;charge&apos;]" />
+												<Value Value="//tr/td[3]/p-dropdown//span[contains(@class, &apos;p-dropdown-label&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//tr/td[3]/p-dropdown//span[contains(@class, &apos;p-dropdown-label&apos;)]" />
+												<Value Value="//span[.=&apos;charge&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="//table[@id=&apos;pr_id_16-table&apos;]//div[78]/tr/td[3]/p-dropdown//span" />
@@ -5525,10 +5525,16 @@
 										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//span[.=&apos;20-Foot Container Premium&apos;]" />
+												<Value Value="xpath=//li[normalize-space(text()) = &apos;20-Foot Container Premium&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="xpath=//tr/td[3]/p-dropdown//span[contains(@class, &apos;p-element&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//li[normalize-space(text()) = &apos;20-Foot Container Premium&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[.=&apos;20-Foot Container Premium&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="//li/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
@@ -5842,6 +5848,9 @@
 										<Image FileName="-200871825" Left="462" Top="331" Right="603" Bottom="348" />
 										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
 										<Selectors>
+											<Selector>
+												<Value Value="xpath=//li[@role=&apos;option&apos; and normalize-space(.) = &apos;Aden Piracy Surcharge&apos;]" />
+											</Selector>
 											<Selector>
 												<Value Value="//span[.=&apos;Aden Piracy Surcharge&apos;]" />
 											</Selector>
@@ -6566,6 +6575,86 @@
 											</Selector>
 											<Selector>
 												<Value Value="//qw-confirm-email//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonChooseYear" Key="{3BB69E77-0F19-468B-8A43-88D752B9B3D7}">
+										<Image FileName="705474862" Left="316" Top="481" Right="363" Bottom="527" />
+										<TypeInfo Item0="{F733B336-0E81-4E53-93E9-417D3C50A5BC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;2025&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;p-datepicker-year&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonChooseMonth" Key="{4B002E78-D19F-4DC4-9B09-EBA927AE2C27}">
+										<Image FileName="-1052850378" Left="247" Top="481" Right="313" Bottom="527" />
+										<TypeInfo Item0="{F733B336-0E81-4E53-93E9-417D3C50A5BC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;January&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div/div/div/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;p-datepicker-month&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div/div/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeFeb" Key="{C527C90A-3A66-4BE9-80CF-09BAF2577FAC}">
+										<Image FileName="-1329195237" Left="236" Top="547" Right="373" Bottom="583" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;Feb&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{3E7B51B1-C78E-450A-AE2C-6778F7ACC008}">
+										<Image FileName="-1043410081" Left="109" Top="646" Right="147" Bottom="684" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//tr[2]/td/span[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//tbody/tr[2]/td/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionDfp" Key="{EEE20DFA-66D2-4173-B297-A40361C1427B}">
+										<Image FileName="859634305" Left="50" Top="87" Right="1903" Bottom="1094" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;DFP&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;page-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel11Of1" Key="{C06D7583-37E8-4A1E-8E28-CF198893D7E6}">
+										<Image FileName="859634305" Left="65" Top="980" Right="1888" Bottom="1019" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[normalize-space(text())=&apos;1 - 1 of 1&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;1 - 1 of 1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;p-datatable-footer&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -7595,7 +7684,10 @@
 										<TypeInfo Item0="{651DEC13-C3FC-47A7-B9F9-218820B50778}" />
 										<Selectors>
 											<Selector>
-												<Value Value="#name" />
+												<Value Value="xpath=//input[@placeholder=&apos;Full name&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//input[@formcontrolname=&apos;name&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="//input[@name=&apos;name&apos;]" />
@@ -7616,7 +7708,10 @@
 										<TypeInfo Item0="{651DEC13-C3FC-47A7-B9F9-218820B50778}" />
 										<Selectors>
 											<Selector>
-												<Value Value="#email" />
+												<Value Value="xpath=//input[@id=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//input[@formcontrolname=&apos;email&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="//input[@name=&apos;email&apos;]" />
@@ -7637,10 +7732,10 @@
 										<TypeInfo Item0="{651DEC13-C3FC-47A7-B9F9-218820B50778}" />
 										<Selectors>
 											<Selector>
-												<Value Value="#password" />
+												<Value Value="xpath=//input[@id=&apos;password&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="//input[@name=&apos;password&apos;]" />
+												<Value Value="xpath=//input[@formcontrolname=&apos;password&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="//input[@type=&apos;password&apos;]" />
@@ -7657,6 +7752,12 @@
 										<Image FileName="-1751958249" Left="915" Top="720" Right="1457" Bottom="768" />
 										<TypeInfo Item0="{F733B336-0E81-4E53-93E9-417D3C50A5BC}" />
 										<Selectors>
+											<Selector>
+												<Value Value="xpath=//button[span[text()=&apos;Continue&apos;]]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//button[@type=&apos;button&apos; and contains(@class, &apos;btn-primary&apos;)]" />
+											</Selector>
 											<Selector>
 												<Value Value="//button[.=&apos;Continue&apos;]" />
 											</Selector>
@@ -8044,9 +8145,6 @@
 												<Image FileName="-125079920" Left="617" Top="788" Right="774" Bottom="809" />
 												<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
 												<Selectors>
-													<Selector>
-														<Value Value="" />
-													</Selector>
 													<Selector>
 														<Value Value="xpath=(//strong[contains(@style, &apos;position: relative&apos;)])[3]" />
 													</Selector>
@@ -8837,6 +8935,13 @@
 				<Child Name="textnodeConfirmYourEmail" Owner="{4E58CDC3-9F50-40A5-826E-538EDAC0C0A4}" />
 				<Child Name="panelYourEmailAddressHasBeen" Owner="{10755850-3493-4BB4-BF25-4D85DB1CFF18}" />
 				<Child Name="buttonContinueToSignIn" Owner="{A2EE7422-FED4-4EED-82D3-94D499D08003}" />
+				<Child Name="buttonChooseYear" Owner="{3BB69E77-0F19-468B-8A43-88D752B9B3D7}" />
+				<Child Name="buttonChooseMonth" Owner="{4B002E78-D19F-4DC4-9B09-EBA927AE2C27}" />
+				<Child Name="textnodeFeb" Owner="{C527C90A-3A66-4BE9-80CF-09BAF2577FAC}" />
+				<Child Name="textnode2" Owner="{3E7B51B1-C78E-450A-AE2C-6778F7ACC008}" />
+				<Child Name="sectionDfp" Owner="{EEE20DFA-66D2-4173-B297-A40361C1427B}">
+					<Child Name="panel11Of1" Owner="{C06D7583-37E8-4A1E-8E28-CF198893D7E6}" />
+				</Child>
 			</Child>
 			<Child Name="pageYopmailDisposableEmailAddres" Owner="{69AA6805-7717-42E9-9EBA-096EBB120FD6}">
 				<Child Name="formF" Owner="{FEEF3FF1-740F-4833-A556-CE95E1F85D63}">
