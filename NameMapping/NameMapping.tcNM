@@ -6677,9 +6677,6 @@
 										<TypeInfo Item0="{B96B5BC7-5AC0-4334-A843-2C0B052800E3}" />
 										<Selectors>
 											<Selector>
-												<Value Value="#f" />
-											</Selector>
-											<Selector>
 												<Value Value="//form[@action=&apos;.&apos;]" />
 											</Selector>
 											<Selector>
@@ -7687,6 +7684,9 @@
 												<Value Value="xpath=//input[@placeholder=&apos;Full name&apos;]" />
 											</Selector>
 											<Selector>
+												<Value Value="xpath=//input[@id=&apos;name&apos; and @name=&apos;name&apos; and @formcontrolname=&apos;name&apos;]" />
+											</Selector>
+											<Selector>
 												<Value Value="xpath=//input[@formcontrolname=&apos;name&apos;]" />
 											</Selector>
 											<Selector>
@@ -7998,27 +7998,12 @@
 									</Property>
 								</Properties>
 								<Children>
-									<Child Name="frameAswift6" Key="{A0E5D39D-A7F4-4DBE-9E09-4195262DF727}">
+									<Child Name="checkEmail" Key="{A0E5D39D-A7F4-4DBE-9E09-4195262DF727}">
 										<Image FileName="-1770573506" Left="0" Top="139" Right="1920" Bottom="1040" />
 										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="#aswift_6" />
-											</Selector>
-											<Selector>
-												<Value Value="//iframe[@name=&apos;aswift_6&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//html/ins/div/iframe[@aria-label=&apos;Advertisement&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//html/ins/div/iframe[@title=&apos;Advertisement&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@id=&apos;aswift_6_host&apos;]/iframe" />
-											</Selector>
-											<Selector>
-												<Value Value="//html/ins/div/iframe" />
+												<Value Value="xpath=//a[normalize-space(text())=&apos;Confirm your email&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -8097,6 +8082,12 @@
 														<Value Value="//button[contains(@class, &apos;lm&apos;)]" />
 													</Selector>
 													<Selector>
+														<Value Value="xpath=//div[@class=&apos;lms&apos; and contains(text(), &apos;confirm&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="xpath=//div[@class=&apos;lmfd&apos; and .//span[@class=&apos;lmh&apos;] and .//span[@class=&apos;lmf&apos; and text()=&apos;Magaya&apos;]]" />
+													</Selector>
+													<Selector>
 														<Value Value="//button" />
 													</Selector>
 												</Selectors>
@@ -8132,12 +8123,15 @@
 													</Selector>
 												</Selectors>
 											</Child>
-											<Child Name="textnodeJan23170016YopmailCom" Key="{629F1AE5-7897-4BA4-977C-160F6F8F0E5B}">
+											<Child Name="confirmEmail" Key="{629F1AE5-7897-4BA4-977C-160F6F8F0E5B}">
 												<Image FileName="-125079920" Left="617" Top="716" Right="826" Bottom="737" />
 												<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
 												<Selectors>
 													<Selector>
-														<Value Value="//strong[.=&apos;jan23170016@yopmail.com&apos;]" />
+														<Value Value="xpath=//a[normalize-space(.)=&apos;Confirm your email&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="xpath=//a[.=&apos;Confirm your email&apos;]" />
 													</Selector>
 												</Selectors>
 											</Child>
@@ -8947,6 +8941,8 @@
 				<Child Name="formF" Owner="{FEEF3FF1-740F-4833-A556-CE95E1F85D63}">
 					<Child Name="textboxLogin" Owner="{05956F59-C190-4B92-A889-8EAABF37E6EF}" />
 					<Child Name="buttonCheckInboxYopmailCom" Owner="{A73D6265-DF42-49BB-8D0D-9820B56B53D1}" />
+					<Child Name="button1701" Owner="{B251D647-692A-487F-ACF8-4421AC27A97F}" />
+					<Child Name="confirmEmail" Owner="{629F1AE5-7897-4BA4-977C-160F6F8F0E5B}" />
 				</Child>
 			</Child>
 			<Child Name="pageYopmailDisposableEmailAddres2" Owner="{A9A6D863-D255-4767-95DA-FF5BDE533A7B}">
@@ -9057,7 +9053,7 @@
 			<Child Name="pageMagayaDigitalFreightPortalHu7" Owner="{413F635A-DB22-48B2-BFA7-15D92592539D}" />
 			<Child Name="pageMagayaDigitalFreightPortalHu8" Owner="{D9CEA374-D08B-4D43-910F-4652CACA25AA}" />
 			<Child Name="pageYopmailDisposableEmailAddres" Owner="{1EDE95A8-BC1B-47BA-B88F-33369B267513}">
-				<Child Name="frameAswift6" Owner="{A0E5D39D-A7F4-4DBE-9E09-4195262DF727}" />
+				<Child Name="confirmEmail" Owner="{A0E5D39D-A7F4-4DBE-9E09-4195262DF727}" />
 				<Child Name="formF" Owner="{7C90212B-85F5-4710-94A6-09ACCDEA7D97}">
 					<Child Name="textboxLogin" Owner="{223816DB-54A3-48FA-9A4B-DC49E1D0D532}" />
 					<Child Name="buttonCheckInboxYopmailCom" Owner="{D2D572DA-9A59-4BC4-A677-89A607132506}" />
@@ -9067,10 +9063,11 @@
 				</Child>
 				<Child Name="frameIfmail" Owner="{3C5E91D8-3F8E-425C-9371-1399B5933282}">
 					<Child Name="panelYourAccountHasBeenCreated" Owner="{98828B7B-2C53-4195-B7F6-FD47C37E5A14}" />
-					<Child Name="textnodeJan23170016YopmailCom" Owner="{629F1AE5-7897-4BA4-977C-160F6F8F0E5B}" />
+					<Child Name="confirmEmail" Owner="{629F1AE5-7897-4BA4-977C-160F6F8F0E5B}" />
 					<Child Name="textnodePassword" Owner="{50FB51B1-8E98-4485-A5FC-6D69CBCBCD0D}" />
 					<Child Name="linkLoginToMagaya" Owner="{2878F0DE-6B62-4AA6-B7A7-F682F4BA4396}" />
 				</Child>
+				<Child Name="buttonEmail" Owner="{B251D647-692A-487F-ACF8-4421AC27A97F}" />
 			</Child>
 			<Child Name="pageSignInGoogleAccounts" Owner="{F58E4532-5A02-475A-B14A-6A2C1E72A2FE}">
 				<Child Name="sectionEmailOrPhone" Owner="{8E2517DE-B90A-4903-AC0E-A2A064ED35DC}">

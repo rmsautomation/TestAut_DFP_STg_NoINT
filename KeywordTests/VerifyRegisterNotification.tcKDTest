@@ -69,9 +69,17 @@
 				<Children>
 					<Operation Type="{792A19F3-4764-463F-B326-ECE40D9596DB}">
 						<Data Description="Stops running the project tests and posts the specified error string to the log.">
+							<CommonData Disabled="True" />
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 								<Parameter Name="CurrentTestOnly" DefVarType="0" DefValueType="7" DefValueValue="False" VarType="11" ValueType="7" ValueValue="False" />
 								<Parameter Name="ErrorMessage" DefVarType="0" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="The Notification does NOT Exists" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{80DF6CF2-7793-4928-B7D9-A658325637B1}">
+						<Data>
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Return Value" DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Log.Error(&quot;The notification does NOT Exist&quot;)" />
 							</Parameters>
 						</Data>
 					</Operation>
