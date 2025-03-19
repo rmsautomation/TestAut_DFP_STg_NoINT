@@ -2994,6 +2994,9 @@
 										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//nav/li[2]/a[contains(@class, &apos;nav-link&apos;)]//span[normalize-space(text())=&apos;Quotations&apos; and contains(@class, &apos;nav-link-text&apos;)]" />
+											</Selector>
+											<Selector>
 												<Value Value="//nav/li[2]/a[contains(@class, &apos;nav-link&apos;)]" />
 											</Selector>
 											<Selector>
