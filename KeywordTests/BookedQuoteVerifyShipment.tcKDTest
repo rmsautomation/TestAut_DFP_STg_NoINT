@@ -20,7 +20,7 @@
 		<Children>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
-					<CommonData WaitTimeout="100000" />
+					<CommonData WaitTimeout="300000" />
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageMagaya.buttonBookNow;" />
 				</Data>
 			</Operation>
