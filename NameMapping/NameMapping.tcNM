@@ -886,6 +886,48 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeCopyQuotation" Key="{70422119-2D04-4272-AA6B-CEB4865BAA70}">
+										<Image FileName="1532716156" Left="1684" Top="254" Right="1841" Bottom="356" />
+										<TypeInfo Item0="{B96B5BC7-5AC0-4334-A843-2C0B052800E3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Copy quotation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/ul[contains(@class, &apos;nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCloseQuotation" Key="{9769ECA5-2D49-49FB-ACC8-A357EB323394}">
+										<Image FileName="1532716156" Left="1684" Top="283" Right="1841" Bottom="312" />
+										<TypeInfo Item0="{B96B5BC7-5AC0-4334-A843-2C0B052800E3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Close quotation&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkCloseQuotation" Key="{234FA04F-34BD-4FA4-A2CE-A6CDB100E683}">
+										<Image FileName="1532716156" Left="1699" Top="286" Right="1826" Bottom="307" />
+										<TypeInfo Item0="{D1C05982-4600-4FE4-8C8E-B5C72087851F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//a[normalize-space(text()) = &apos;Close quotation&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Close quotation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/a[contains(@class, &apos;p-0&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/ul/li[2]/a" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageNewQuotationMagayaDigitalFre" Key="{E8FA6234-E90E-4718-87E5-242D5315E7B5}">
@@ -5305,6 +5347,9 @@
 												<Value Value="//table[@id=&apos;pr_id_10-table&apos;]//td[5]/div" />
 											</Selector>
 											<Selector>
+												<Value Value="xpath=//td[contains(@class, &apos;font-weight-bold&apos;) and contains(@class, &apos;text-right&apos;)]//div[starts-with(normalize-space(), &apos;$&apos;)]" />
+											</Selector>
+											<Selector>
 												<Value Value="//td[5]/div" />
 											</Selector>
 										</Selectors>
@@ -5314,13 +5359,13 @@
 										<TypeInfo Item0="{F733B336-0E81-4E53-93E9-417D3C50A5BC}" />
 										<Selectors>
 											<Selector>
+												<Value Value="//tr/td[7]//button" />
+											</Selector>
+											<Selector>
 												<Value Value="//tr/td//button[contains(@class, &apos;dropdown-toggle&apos;)]" />
 											</Selector>
 											<Selector>
 												<Value Value="//table[@id=&apos;pr_id_10-table&apos;]//tr/td[7]/div/button" />
-											</Selector>
-											<Selector>
-												<Value Value="//tr/td[7]//button" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -5527,6 +5572,9 @@
 										<Image FileName="1437520917" Left="462" Top="368" Right="633" Bottom="385" />
 										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
 										<Selectors>
+											<Selector>
+												<Value Value="xpath=//span[@role=&apos;combobox&apos; and normalize-space(text())=&apos;20-Foot Container Premium&apos;]" />
+											</Selector>
 											<Selector>
 												<Value Value="xpath=//li[normalize-space(text()) = &apos;20-Foot Container Premium&apos;]" />
 											</Selector>
@@ -5852,16 +5900,19 @@
 										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//li[@role=&apos;option&apos; and normalize-space(.) = &apos;Aden Piracy Surcharge&apos;]" />
+												<Value Value="xpath=//li[@role=&apos;option&apos; and normalize-space(text())=&apos;Aden Piracy Surcharge&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="//span[.=&apos;Aden Piracy Surcharge&apos;]" />
+												<Value Value="xpath=//li[@role=&apos;option&apos; and normalize-space(.) = &apos;Aden Piracy Surcharge&apos;]" Enabled="False" />
 											</Selector>
 											<Selector>
-												<Value Value="//p-dropdownitem[2]/li/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+												<Value Value="//span[.=&apos;Aden Piracy Surcharge&apos;]" Enabled="False" />
 											</Selector>
 											<Selector>
-												<Value Value="//p-dropdownitem[2]/li/span" />
+												<Value Value="//p-dropdownitem[2]/li/span[contains(@class, &apos;ng-star-inserted&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[2]/li/span" Enabled="False" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -6149,10 +6200,10 @@
 										<TypeInfo Item0="{651DEC13-C3FC-47A7-B9F9-218820B50778}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//input[@id=(//label[.=&apos;Valid until*&apos;]/@for)]" />
+												<Value Value="#valid_until" />
 											</Selector>
 											<Selector>
-												<Value Value="#valid_until" />
+												<Value Value="//input[@id=(//label[.=&apos;Valid until*&apos;]/@for)]" />
 											</Selector>
 											<Selector>
 												<Value Value="//div[3]/div/input" />
@@ -6415,6 +6466,48 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeDeleteQuotation" Key="{1B5F760D-E059-4894-AD31-0A5F39261898}">
+										<Image FileName="-987127935" Left="1684" Top="283" Right="1845" Bottom="312" />
+										<TypeInfo Item0="{B96B5BC7-5AC0-4334-A843-2C0B052800E3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Delete quotation&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkDeleteQuotation" Key="{4C32DE5C-C6A5-49DE-8C3D-18B8A6FA07E7}">
+										<Image FileName="-987127935" Left="1699" Top="286" Right="1830" Bottom="307" />
+										<TypeInfo Item0="{D1C05982-4600-4FE4-8C8E-B5C72087851F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//a[normalize-space(text()) = &apos;Delete quotation&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Delete quotation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/a[contains(@class, &apos;p-0&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/ul/li[2]/a" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkEdit" Key="{6D37FB19-2222-4D20-BD05-C526271E15D8}">
+										<Image FileName="2046564521" Left="1697" Top="465" Right="1818" Bottom="494" />
+										<TypeInfo Item0="{D1C05982-4600-4FE4-8C8E-B5C72087851F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Edit&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/ul/li/a[contains(@class, &apos;p-element&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageInbox" Key="{FE3DE332-90A9-438A-BCD2-4FE199B032FB}">
@@ -6661,6 +6754,47 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="formCarrier" Key="{4BA9AF0A-1F96-4C42-BCB6-3CC408F146FB}">
+										<Image FileName="-91644127" Left="240" Top="757" Right="1716" Bottom="1709" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Carrier&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;ng-pristine&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2029" Key="{3F65C844-5FBF-4C5F-88DF-3A3AA2F2337E}">
+										<Image FileName="-91644127" Left="1473" Top="920" Right="1702" Bottom="956" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div[2]/span[10]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode31" Key="{42EDB883-5F23-4691-AB76-69519FFCFE4F}">
+										<Image FileName="-551733961" Left="1323" Top="910" Right="1361" Bottom="948" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;31&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//tr[6]/td[2]/span[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-calendar[@id=&apos;valid_until&apos;]//div[@role=&apos;dialog&apos;]//tbody/tr[6]/td[2]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//tbody/tr[6]/td[2]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageYopmailDisposableEmailAddres" Key="{69AA6805-7717-42E9-9EBA-096EBB120FD6}">
@@ -6878,6 +7012,20 @@
 										<Value Value="0" Type="0" />
 									</Property>
 								</Properties>
+								<Children>
+									<Child Name="Chrome_RenderWidgetHostHWND" Key="{A1F4F4EA-2933-4BA6-8ED9-8809AB6254AD}">
+										<Image FileName="527828958" Left="0" Top="87" Right="1920" Bottom="1040" />
+										<TypeInfo Item0="{B99F8189-F131-4F46-86CE-E9F6ADD18D11}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_RenderWidgetHostHWND" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Chrome Legacy Window" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
 							</Child>
 							<Child Name="pageMagayaDigitalFreightPortalHu" Key="{EA49813E-AFEA-4DC8-AFD1-6937D922A491}">
 								<Image FileName="141570582" Left="0" Top="139" Right="1920" Bottom="1040" />
@@ -7775,6 +7923,131 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeCopyQuotation" Key="{476D9D94-E7E5-45AF-B0DC-AF749D63F239}">
+										<Image FileName="-2024377147" Left="1684" Top="254" Right="1841" Bottom="356" />
+										<TypeInfo Item0="{B96B5BC7-5AC0-4334-A843-2C0B052800E3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Copy quotation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/ul[contains(@class, &apos;nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCopyQuotation2" Key="{EE2BA9D3-A3AB-47E7-956A-A7F6132B4301}">
+										<Image FileName="-2024377147" Left="1684" Top="254" Right="1841" Bottom="283" />
+										<TypeInfo Item0="{B96B5BC7-5AC0-4334-A843-2C0B052800E3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Copy quotation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/ul/li[contains(@class, &apos;nav-item&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkCopyQuotation" Key="{D800FB75-F833-4D94-B77F-235011499C81}">
+										<Image FileName="-2024377147" Left="1699" Top="258" Right="1826" Bottom="279" />
+										<TypeInfo Item0="{D1C05982-4600-4FE4-8C8E-B5C72087851F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//a[normalize-space(text()) = &apos;Copy quotation&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Copy quotation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a[contains(@class, &apos;p-0&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/ul/li/a" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formCarrier" Key="{27FCBE8F-B0DC-4BD4-9CF7-083FE36B434B}">
+										<Image FileName="-1289499202" Left="240" Top="390" Right="1716" Bottom="1342" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Carrier&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;ng-invalid&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode1" Key="{DBE9E4F5-5C4D-4725-B0EB-7CC8359FA816}">
+										<Image FileName="851952733" Left="1388" Top="331" Right="1426" Bottom="369" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//tr/td[3]/span[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-calendar[@id=&apos;valid_until&apos;]//div[@role=&apos;dialog&apos;]//tbody/tr/td[3]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//tbody/tr/td[3]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxCombobox" Key="{CF43C84C-BBC7-43A4-899E-2165E3A9D16C}">
+										<Image FileName="-693891413" Left="1230" Top="583" Right="1682" Bottom="619" />
+										<TypeInfo Item0="{651DEC13-C3FC-47A7-B9F9-218820B50778}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[3]/p-calendar/span/input[@role=&apos;combobox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/p-calendar/span/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;ng-tns-c419082668-47&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-calendar[@id=&apos;valid_until&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/p-calendar/span/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode18" Key="{5550E3FA-10AD-4681-8309-846528657901}">
+										<Image FileName="1686609939" Left="1584" Top="859" Right="1622" Bottom="897" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;18&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//tr[3]/td[6]/span[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-calendar[@id=&apos;valid_until&apos;]//div[@role=&apos;dialog&apos;]//tbody/tr[3]/td[6]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//tbody/tr[3]/td[6]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell" Key="{AD9293B8-E8A0-4FEE-95B8-531F0EBC0276}">
+										<Image FileName="-35485156" Left="285" Top="812" Right="435" Bottom="889" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[contains(text(), &apos;Destination&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagayaDigitalFreightPortalHu7" Key="{413F635A-DB22-48B2-BFA7-15D92592539D}">
@@ -8319,6 +8592,18 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="page" Key="{4446B27B-3B48-4590-BB14-A28291F2058B}">
+								<Image FileName="1818489014" Left="0" Top="87" Right="1920" Bottom="1040" />
+								<TypeInfo Item0="{F1DA40A3-5A57-472C-8EB4-4F53A89C8B49}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="" />
+									</Property>
+								</Properties>
+							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -8425,6 +8710,12 @@
 					<Child Name="panel12Of2" Owner="{8F49686C-C35A-4015-88D1-FBFB1A7B651B}" />
 					<Child Name="cell5" Owner="{EA1C4243-40E8-43C7-A63E-C0F0381F6436}" />
 					<Child Name="buttonCreateUser" Owner="{F554FB1C-DFCD-4F2C-9959-C28A89D25E3A}" />
+					<Child Name="linkCloseQuotation" Owner="{234FA04F-34BD-4FA4-A2CE-A6CDB100E683}" />
+					<Child Name="linkDeleteQuotation" Owner="{4C32DE5C-C6A5-49DE-8C3D-18B8A6FA07E7}" />
+				</Child>
+				<Child Name="textnodeCopyQuotation" Owner="{70422119-2D04-4272-AA6B-CEB4865BAA70}">
+					<Child Name="textnodeCloseQuotation" Owner="{9769ECA5-2D49-49FB-ACC8-A357EB323394}" />
+					<Child Name="textnodeDeleteQuotation" Owner="{1B5F760D-E059-4894-AD31-0A5F39261898}" />
 				</Child>
 			</Child>
 			<Child Name="pageNewQuotationMagayaDigitalFre" Owner="{E8FA6234-E90E-4718-87E5-242D5315E7B5}">
@@ -8938,6 +9229,10 @@
 				<Child Name="textnode2" Owner="{3E7B51B1-C78E-450A-AE2C-6778F7ACC008}" />
 				<Child Name="sectionDfp" Owner="{EEE20DFA-66D2-4173-B297-A40361C1427B}">
 					<Child Name="panel11Of1" Owner="{C06D7583-37E8-4A1E-8E28-CF198893D7E6}" />
+					<Child Name="formCarrier" Owner="{4BA9AF0A-1F96-4C42-BCB6-3CC408F146FB}">
+						<Child Name="textnode2029" Owner="{3F65C844-5FBF-4C5F-88DF-3A3AA2F2337E}" />
+						<Child Name="textnode31" Owner="{42EDB883-5F23-4691-AB76-69519FFCFE4F}" />
+					</Child>
 				</Child>
 			</Child>
 			<Child Name="pageYopmailDisposableEmailAddres" Owner="{69AA6805-7717-42E9-9EBA-096EBB120FD6}">
@@ -8964,7 +9259,9 @@
 					</Child>
 				</Child>
 			</Child>
-			<Child Name="BrowserWindow" Owner="{5D80D389-1796-495B-B392-63A9B6AF0CD8}" />
+			<Child Name="BrowserWindow" Owner="{5D80D389-1796-495B-B392-63A9B6AF0CD8}">
+				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{A1F4F4EA-2933-4BA6-8ED9-8809AB6254AD}" />
+			</Child>
 			<Child Name="pageMagayaDigitalFreightPortalHu" Owner="{EA49813E-AFEA-4DC8-AFD1-6937D922A491}" />
 			<Child Name="pageMagayaDigitalFreightPortalHu2" Owner="{0679E409-794C-4AB1-8299-49CD413EA780}" />
 			<Child Name="pageMagayaDigitalFreightPortalHu3" Owner="{E48831AE-00D5-4265-8723-9846C035B259}">
@@ -9023,6 +9320,13 @@
 						<Child Name="linkOffers" Owner="{D7BA0C45-C7A4-42C9-825A-AF4A1576F98E}" />
 					</Child>
 					<Child Name="panelQuotationPublishedByAylin" Owner="{FEC7F777-B562-4CD1-80D6-B046BD0D72DE}" />
+					<Child Name="linkCopyQuotation" Owner="{D800FB75-F833-4D94-B77F-235011499C81}" />
+					<Child Name="formCarrier" Owner="{27FCBE8F-B0DC-4BD4-9CF7-083FE36B434B}">
+						<Child Name="textboxCombobox" Owner="{CF43C84C-BBC7-43A4-899E-2165E3A9D16C}" />
+						<Child Name="textnode18" Owner="{5550E3FA-10AD-4681-8309-846528657901}" />
+						<Child Name="cell" Owner="{AD9293B8-E8A0-4FEE-95B8-531F0EBC0276}" />
+					</Child>
+					<Child Name="textnode1" Owner="{DBE9E4F5-5C4D-4725-B0EB-7CC8359FA816}" />
 				</Child>
 				<Child Name="navDashboard" Owner="{102D58AE-0230-49AA-954D-2647F8B812E0}">
 					<Child Name="textnodeSignIn" Owner="{50A27C41-82E6-43A8-97A7-DF2FC71EC228}">
@@ -9051,6 +9355,11 @@
 					<Child Name="textboxEmail" Owner="{4C35918A-AAD7-488A-9D2A-C84003863C4D}" />
 					<Child Name="passwordboxPassword" Owner="{E50B619A-BF2D-4857-A3EB-7EBAFC1D55CD}" />
 					<Child Name="buttonContinue" Owner="{3D9ADDD0-9BC4-4E56-9ECB-48CDF53A46F7}" />
+				</Child>
+				<Child Name="textnodeCopyQuotation" Owner="{476D9D94-E7E5-45AF-B0DC-AF749D63F239}">
+					<Child Name="textnodeCopyQuotation2" Owner="{EE2BA9D3-A3AB-47E7-956A-A7F6132B4301}">
+						<Child Name="linkEdit" Owner="{6D37FB19-2222-4D20-BD05-C526271E15D8}" />
+					</Child>
 				</Child>
 			</Child>
 			<Child Name="pageMagayaDigitalFreightPortalHu7" Owner="{413F635A-DB22-48B2-BFA7-15D92592539D}" />
@@ -9085,6 +9394,7 @@
 				</Child>
 				<Child Name="buttonNext" Owner="{767A3238-AC10-4C1C-918E-B135CB4D69FB}" />
 			</Child>
+			<Child Name="page" Owner="{4446B27B-3B48-4590-BB14-A28291F2058B}" />
 		</Child>
 	</LogicalNodes>
 </Root>
