@@ -255,7 +255,7 @@
 												<Value Value="//input[@name=&apos;username&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="//form/div//div//input" />
+												<Value Value="//form/div//div//input" Enabled="False" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -4083,10 +4083,16 @@
 										<TypeInfo Item0="{F733B336-0E81-4E53-93E9-417D3C50A5BC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//qwyk-quotation-offer-card//div[3]//qwyk-quotation-book-button/button[contains(@class, &apos;btn&apos;)]" />
+												<Value Value="xpath=(//button[span[text()=&apos;Book now&apos;]])[2]" />
 											</Selector>
 											<Selector>
-												<Value Value="//qwyk-quotation-offer-card//div[3]//qwyk-quotation-book-button/button" />
+												<Value Value="xpath=//span[normalize-space(text())=&apos;Book now&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotation-offer-card//div[3]//qwyk-quotation-book-button/button" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotation-offer-card//div[3]//qwyk-quotation-book-button/button[contains(@class, &apos;btn&apos;)]" Enabled="False" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -4571,10 +4577,10 @@
 												<Value Value="//h3[contains(text(), &apos;Quotation&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//h3[contains(@class, &apos;font-weight-normal&apos;)]" />
+												<Value Value="//h3[contains(@class, &apos;font-weight-normal&apos;)]" Enabled="False" />
 											</Selector>
 											<Selector>
-												<Value Value="//h3" />
+												<Value Value="//h3" Enabled="False" />
 											</Selector>
 										</Selectors>
 									</Child>
