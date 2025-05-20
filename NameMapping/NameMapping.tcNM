@@ -928,6 +928,33 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="linkAdministration" Key="{5B99273F-4C91-49D1-83B3-F38AC37DBFB8}">
+										<Image FileName="893488356" Left="8" Top="521" Right="58" Bottom="567" />
+										<TypeInfo Item0="{D1C05982-4600-4FE4-8C8E-B5C72087851F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[8]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[8]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{A9FFF2A1-6090-4CDA-B0BA-C6E00DF31109}">
+										<Image FileName="893488356" Left="23" Top="533" Right="41" Bottom="555" />
+										<TypeInfo Item0="{B96B5BC7-5AC0-4334-A843-2C0B052800E3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[8]/a/fa-icon[contains(@class, &apos;ng-fa-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;administration&apos;)]/fa-icon" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[8]/a/fa-icon" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageNewQuotationMagayaDigitalFre" Key="{E8FA6234-E90E-4718-87E5-242D5315E7B5}">
@@ -8923,6 +8950,9 @@
 					<Child Name="textnodeNotifications" Owner="{BFF5EB41-644E-4D35-A86E-218F252110BF}">
 						<Child Name="linkNotifications" Owner="{A33B9699-6FEF-4FD5-91C4-49CBA3DD182F}">
 							<Child Name="notifications" Owner="{A09643B3-ADE4-47D9-8D08-467BDF7705D2}" />
+						</Child>
+						<Child Name="linkAdministration" Owner="{5B99273F-4C91-49D1-83B3-F38AC37DBFB8}">
+							<Child Name="textnode" Owner="{A9FFF2A1-6090-4CDA-B0BA-C6E00DF31109}" />
 						</Child>
 					</Child>
 					<Child Name="textnodeShipments" Owner="{94F0BC68-4DB5-4C81-8FC5-7A2BB3800EE0}">
