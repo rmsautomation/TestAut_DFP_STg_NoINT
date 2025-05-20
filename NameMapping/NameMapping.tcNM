@@ -8081,6 +8081,38 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="sectionDfp" Key="{34C8B2D6-01BF-46CC-BC66-CD5C5B2B0002}">
+										<Image FileName="1105568418" Left="50" Top="139" Right="1905" Bottom="2560" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;DFP&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;page-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell2" Key="{C01E335C-DB15-4A88-8A9F-BBCC6FFF672B}">
+										<Image FileName="-514069808" Left="1730" Top="913" Right="1890" Bottom="971" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[contains(., &apos;3 years ago&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell3" Key="{15DB8AF5-7039-48B0-8043-F85073E3BC4B}">
+										<Image FileName="1956682352" Left="1730" Top="855" Right="1890" Bottom="913" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//th[contains(text(), &apos;Booking Date&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagayaDigitalFreightPortalHu7" Key="{413F635A-DB22-48B2-BFA7-15D92592539D}">
@@ -9396,6 +9428,10 @@
 					<Child Name="textnodeCopyQuotation2" Owner="{EE2BA9D3-A3AB-47E7-956A-A7F6132B4301}">
 						<Child Name="linkEdit" Owner="{6D37FB19-2222-4D20-BD05-C526271E15D8}" />
 					</Child>
+				</Child>
+				<Child Name="sectionDfp" Owner="{34C8B2D6-01BF-46CC-BC66-CD5C5B2B0002}">
+					<Child Name="cell2" Owner="{C01E335C-DB15-4A88-8A9F-BBCC6FFF672B}" />
+					<Child Name="cell3" Owner="{15DB8AF5-7039-48B0-8043-F85073E3BC4B}" />
 				</Child>
 			</Child>
 			<Child Name="pageMagayaDigitalFreightPortalHu7" Owner="{413F635A-DB22-48B2-BFA7-15D92592539D}" />
