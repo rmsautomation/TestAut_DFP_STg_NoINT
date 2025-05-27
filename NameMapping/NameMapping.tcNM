@@ -6828,6 +6828,30 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="vg" Key="{0D8D1DE6-2979-4815-AC0F-F76BF404F6D3}">
+										<Image FileName="1524468310" Left="697" Top="872" Right="711" Bottom="886" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form/div[3]//p-dropdown//chevrondownicon/*[name()=&apos;svg&apos;][contains(@class, &apos;p-dropdown-trigger-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;currency&apos;]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[3]//p-dropdown//chevrondownicon/*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel5000" Key="{4E2B8759-7A42-4E24-8435-C68995791EB3}">
+										<Image FileName="-1266666236" Left="1537" Top="290" Right="1616" Bottom="309" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[58]/tr/td[9]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageYopmailDisposableEmailAddres" Key="{69AA6805-7717-42E9-9EBA-096EBB120FD6}">
@@ -9300,6 +9324,8 @@
 					<Child Name="formCarrier" Owner="{4BA9AF0A-1F96-4C42-BCB6-3CC408F146FB}">
 						<Child Name="textnode2029" Owner="{3F65C844-5FBF-4C5F-88DF-3A3AA2F2337E}" />
 						<Child Name="textnode31" Owner="{42EDB883-5F23-4691-AB76-69519FFCFE4F}" />
+						<Child Name="vg" Owner="{0D8D1DE6-2979-4815-AC0F-F76BF404F6D3}" />
+						<Child Name="panel5000" Owner="{4E2B8759-7A42-4E24-8435-C68995791EB3}" />
 					</Child>
 				</Child>
 			</Child>
