@@ -6828,6 +6828,45 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="vg" Key="{0D8D1DE6-2979-4815-AC0F-F76BF404F6D3}">
+										<Image FileName="1524468310" Left="697" Top="872" Right="711" Bottom="886" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form/div[3]//p-dropdown//chevrondownicon/*[name()=&apos;svg&apos;][contains(@class, &apos;p-dropdown-trigger-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;currency&apos;]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[3]//p-dropdown//chevrondownicon/*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel5000" Key="{4E2B8759-7A42-4E24-8435-C68995791EB3}">
+										<Image FileName="-1266666236" Left="1537" Top="290" Right="1616" Bottom="309" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[58]/tr/td[9]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNotifications" Key="{07B2D352-9254-4C16-880B-BDA8440691B7}">
+										<Image FileName="-1655836020" Left="269" Top="188" Right="405" Bottom="217" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h3[.=&apos;Notifications&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[contains(@class, &apos;font-weight-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageYopmailDisposableEmailAddres" Key="{69AA6805-7717-42E9-9EBA-096EBB120FD6}">
@@ -8113,6 +8152,215 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeMay30123019YopmailCom" Key="{CEB0371E-F23A-4F03-9282-6884EAA52BEF}">
+										<Image FileName="1598247353" Left="269" Top="244" Right="1682" Bottom="1581" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;May30123019@yopmail.com&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;list-group&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-notifications-list/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMay30123019YopmailCom2" Key="{F65AB75B-B6B3-4252-A60D-C438E91013BF}">
+										<Image FileName="1598247353" Left="269" Top="244" Right="1682" Bottom="324" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;May30123019@yopmail.com&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-notifications-list/ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMay30123019YopmailCom3" Key="{E88FE63D-31EF-4C36-BD32-0E6827E885D0}">
+										<Image FileName="1598247353" Left="332" Top="266" Right="483" Bottom="280" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//div[contains(@class, &apos;d-flex&apos;) and contains(@class, &apos;align-items-center&apos;) and contains(@class, &apos;justify-content-between&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;May30123019@yopmail.com&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-notifications-list/ul/li//span[contains(@class, &apos;ng-star-inserted&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/span" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeApr23193129name" Key="{8D37245E-8207-4590-BD76-2ADE9D7CCF7E}">
+										<Image FileName="2086177036" Left="269" Top="838" Right="1682" Bottom="917" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Apr23193129Name&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode24DaysAgo" Key="{7B05A303-16B5-4BD0-A0EC-56E6E0D2FAAA}">
+										<Image FileName="2086177036" Left="434" Top="860" Right="495" Bottom="874" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//div[contains(@class, &apos;d-flex&apos;) and contains(@class, &apos;align-items-center&apos;) and contains(@class, &apos;justify-content-between&apos;)])[last()]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg" Key="{CAB82EC9-DDDE-4045-B31C-B27E5F2C42FF}">
+										<Image FileName="-978915776" Left="1651" Top="957" Right="1665" Bottom="971" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[name()=&apos;svg&apos;][contains(@class, &apos;p-dropdown-trigger-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;pn_id_18&apos;]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//chevrondownicon/*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePnId18List" Key="{5E6E9EE4-FBE4-48FD-AC20-637E9C9C41CA}">
+										<Image FileName="-1026400018" Left="1621" Top="855" Right="1673" Bottom="947" />
+										<Selectors>
+											<Selector>
+												<Value Value="#pn_id_18_list" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;listbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;p-dropdown-items&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode50" Key="{7C8B672B-060F-4782-9918-72FFF3582AFC}">
+										<Image FileName="-1026400018" Left="1621" Top="916" Right="1673" Bottom="947" />
+										<Selectors>
+											<Selector>
+												<Value Value="#pn_id_18_2" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[.=&apos;50&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@aria-label=&apos;50&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li[@role=&apos;option&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode502" Key="{0DEFFF3F-18B9-44F4-B5F8-E7907472D518}">
+										<Image FileName="-1026400018" Left="1633" Top="923" Right="1647" Bottom="938" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;50&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;pn_id_18_2&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode24DaysAgo2" Key="{3F4A3CA1-A10E-4A2E-B2F1-D8B14FE31074}">
+										<Image FileName="1166885198" Left="434" Top="860" Right="495" Bottom="874" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//div[contains(@class, &apos;d-flex&apos;) and contains(@class, &apos;align-items-center&apos;) and contains(@class, &apos;justify-content-between&apos;)])[last()]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode10" Key="{A82943BD-C9DA-4D2C-9F64-33F556174B75}">
+										<Image FileName="-164061152" Left="1621" Top="855" Right="1673" Bottom="886" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#pn_id_18_0" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[.=&apos;10&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@aria-label=&apos;10&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem/li[@role=&apos;option&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem/li[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonLastPage" Key="{D8566D28-71ED-4772-A7F2-510B5BCB3307}">
+										<Image FileName="-2054929117" Left="1581" Top="948" Right="1613" Bottom="980" />
+										<TypeInfo Item0="{F733B336-0E81-4E53-93E9-417D3C50A5BC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;p-paginator-last&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeContact2503" Key="{BF2DF14A-F034-4461-9113-32B7E7CCDBDC}">
+										<Image FileName="1270809701" Left="269" Top="195" Right="1682" Bottom="746" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Contact_2503&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;list-group&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-notifications-list/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeContact25032" Key="{69E279B3-644F-4AF2-AB31-F82DCFD80189}">
+										<Image FileName="1270809701" Left="269" Top="195" Right="1682" Bottom="275" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Contact_2503&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-notifications-list/ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode23DaysAgo" Key="{A562CDC7-D178-4131-997A-02EB28B2FC84}">
+										<Image FileName="1270809701" Left="405" Top="217" Right="466" Bottom="231" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//div[contains(@class, &apos;d-flex&apos;) and contains(@class, &apos;align-items-center&apos;) and contains(@class, &apos;justify-content-between&apos;)])[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagayaDigitalFreightPortalHu7" Key="{413F635A-DB22-48B2-BFA7-15D92592539D}">
@@ -9300,7 +9548,10 @@
 					<Child Name="formCarrier" Owner="{4BA9AF0A-1F96-4C42-BCB6-3CC408F146FB}">
 						<Child Name="textnode2029" Owner="{3F65C844-5FBF-4C5F-88DF-3A3AA2F2337E}" />
 						<Child Name="textnode31" Owner="{42EDB883-5F23-4691-AB76-69519FFCFE4F}" />
+						<Child Name="vg" Owner="{0D8D1DE6-2979-4815-AC0F-F76BF404F6D3}" />
+						<Child Name="panel5000" Owner="{4E2B8759-7A42-4E24-8435-C68995791EB3}" />
 					</Child>
+					<Child Name="textnodeNotifications" Owner="{07B2D352-9254-4C16-880B-BDA8440691B7}" />
 				</Child>
 			</Child>
 			<Child Name="pageYopmailDisposableEmailAddres" Owner="{69AA6805-7717-42E9-9EBA-096EBB120FD6}">
@@ -9432,7 +9683,26 @@
 				<Child Name="sectionDfp" Owner="{34C8B2D6-01BF-46CC-BC66-CD5C5B2B0002}">
 					<Child Name="cell2" Owner="{C01E335C-DB15-4A88-8A9F-BBCC6FFF672B}" />
 					<Child Name="cell3" Owner="{15DB8AF5-7039-48B0-8043-F85073E3BC4B}" />
+					<Child Name="textnodeMay30123019YopmailCom" Owner="{CEB0371E-F23A-4F03-9282-6884EAA52BEF}">
+						<Child Name="textnodeMay30123019YopmailCom2" Owner="{F65AB75B-B6B3-4252-A60D-C438E91013BF}" />
+						<Child Name="textnodeApr23193129name" Owner="{8D37245E-8207-4590-BD76-2ADE9D7CCF7E}" />
+					</Child>
+					<Child Name="vg" Owner="{CAB82EC9-DDDE-4045-B31C-B27E5F2C42FF}" />
+					<Child Name="buttonLastPage" Owner="{D8566D28-71ED-4772-A7F2-510B5BCB3307}" />
+					<Child Name="textnodeContact2503" Owner="{BF2DF14A-F034-4461-9113-32B7E7CCDBDC}">
+						<Child Name="textnodeContact25032" Owner="{69E279B3-644F-4AF2-AB31-F82DCFD80189}" />
+					</Child>
 				</Child>
+				<Child Name="firstNotiHome" Owner="{E88FE63D-31EF-4C36-BD32-0E6827E885D0}" />
+				<Child Name="lastNotiHome" Owner="{7B05A303-16B5-4BD0-A0EC-56E6E0D2FAAA}" />
+				<Child Name="textnodePnId18List" Owner="{5E6E9EE4-FBE4-48FD-AC20-637E9C9C41CA}">
+					<Child Name="textnode50" Owner="{7C8B672B-060F-4782-9918-72FFF3582AFC}">
+						<Child Name="textnode502" Owner="{0DEFFF3F-18B9-44F4-B5F8-E7907472D518}" />
+					</Child>
+					<Child Name="textnode10" Owner="{A82943BD-C9DA-4D2C-9F64-33F556174B75}" />
+				</Child>
+				<Child Name="lastNotiP50" Owner="{3F4A3CA1-A10E-4A2E-B2F1-D8B14FE31074}" />
+				<Child Name="firstNotiLastPage" Owner="{A562CDC7-D178-4131-997A-02EB28B2FC84}" />
 			</Child>
 			<Child Name="pageMagayaDigitalFreightPortalHu7" Owner="{413F635A-DB22-48B2-BFA7-15D92592539D}" />
 			<Child Name="pageMagayaDigitalFreightPortalHu8" Owner="{D9CEA374-D08B-4D43-910F-4652CACA25AA}" />

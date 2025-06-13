@@ -86,8 +86,20 @@
 					<Node name="var26">
 						<Prp name="name" type="S" value="Password4"/>
 					</Node>
+					<Node name="var27">
+						<Prp name="name" type="S" value="firstNotiHome"/>
+					</Node>
+					<Node name="var28">
+						<Prp name="name" type="S" value="lastNotiHome"/>
+					</Node>
+					<Node name="var29">
+						<Prp name="name" type="S" value="lastNotiP50"/>
+					</Node>
 					<Node name="var3">
 						<Prp name="name" type="S" value="offersPortal"/>
+					</Node>
+					<Node name="var30">
+						<Prp name="name" type="S" value="firstNotiLastPage"/>
 					</Node>
 					<Node name="var4">
 						<Prp name="name" type="S" value="notifications"/>

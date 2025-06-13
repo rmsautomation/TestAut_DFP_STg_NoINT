@@ -5,6 +5,7 @@
 			<folder name="HUB">
 				<folder name="HOME">
 					<child name="TC_17_QWYK_280_Hub_Home" key="{4F1A02E3-4F81-4D33-9A48-E3FA50684DBC}" path="TC_17_QWYK_280_Hub_Home.tcKDTest" />
+					<child name="TC_QWYK_9616_NotificationsVerifyPaginationAndSize" key="{701753B4-EE06-4637-AF25-BEB6FAC60CEE}" path="TC_QWYK_9616_NotificationsVerifyPaginationAndSize.tcKDTest" />
 				</folder>
 				<folder name="QUOTATIONS">
 					<child name="TC_1_129_FCLOpen" key="{BFCFBD91-CDCE-4B76-8915-2C3475DE1BCE}" path="TC_1_129_FCLOpen.tcKDTest" />
@@ -92,6 +93,14 @@
 				</folder>
 				<folder name="HOME">
 					<child name="VerifyRegisterNotification" key="{79200BAD-DCF5-44B1-B9B0-294512FC497F}" path="VerifyRegisterNotification.tcKDTest" />
+					<child name="GoToRecentNotifications" key="{82B21040-5C53-41FF-A97B-411591CDE6FC}" path="GoToRecentNotifications.tcKDTest" />
+					<child name="SaveFirstNotiPage1" key="{1D444031-6B73-4B12-83BA-354CB12A542E}" path="SaveFirstNotiPage1.tcKDTest" />
+					<child name="SaveLastNotiPage1" key="{55064941-B103-4680-A1A8-0170AE85801F}" path="SaveLastNotiPage1.tcKDTest" />
+					<child name="ChangePaginationTo50" key="{86C89C79-255F-4F70-8899-F00A581C967A}" path="ChangePaginationTo50.tcKDTest" />
+					<child name="SaveLastNotiP50" key="{BABD842A-9734-4DCE-88A2-99DEAE8F6008}" path="SaveLastNotiP50.tcKDTest" />
+					<child name="ChangePaginationTo10" key="{983ADA05-B115-41EB-A357-ABAA00315060}" path="ChangePaginationTo10.tcKDTest" />
+					<child name="GoToLastPage" key="{5844F7A6-12BF-4F9A-B137-F0B156A2AEC1}" path="GoToLastPage.tcKDTest" />
+					<child name="SaveFirstNotiLastPage" key="{62137B41-C600-422B-9555-881A0866D255}" path="SaveFirstNotiLastPage.tcKDTest" />
 				</folder>
 				<folder name="CUSTOMERS">
 					<child name="SelectPortalCustomers" key="{8FBE3810-BA57-4AEE-857E-7B88EF8D4971}" path="SelectPortalCustomers.tcKDTest" />
