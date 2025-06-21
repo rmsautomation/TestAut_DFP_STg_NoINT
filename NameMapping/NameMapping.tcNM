@@ -1788,6 +1788,9 @@
 												<Value Value="xpath=//qwyk-sites-list-widget/ul/li[contains(@class, &apos;ng-star-inserted&apos;)]" />
 											</Selector>
 											<Selector>
+												<Value Value="xpath=(//li[contains(@class, &apos;list-group-item&apos;) and .//a[contains(@href, &apos;.com&apos;)]])[2]" />
+											</Selector>
+											<Selector>
 												<Value Value="xpath=//qwyk-sites-list-widget/ul/li" />
 											</Selector>
 										</Selectors>
@@ -3452,6 +3455,9 @@
 										<Image FileName="-2073207945" Left="751" Top="672" Right="1041" Bottom="693" />
 										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
 										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//li[contains(@class, &apos;p-autocomplete-item&apos;) and contains(@class, &apos;ng-star-inserted&apos;)])[1]" />
+											</Selector>
 											<Selector>
 												<Value Value="//ngb-modal-window[@role=&apos;dialog&apos;]//div[contains(@class, &apos;ng-star-inserted&apos;)]/div/ul/li/div[contains(@class, &apos;ng-star-inserted&apos;)]" />
 											</Selector>
@@ -6867,6 +6873,21 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeDashboard" Key="{8DD32861-FB6E-4348-8D90-877EE6A6A437}">
+										<Image FileName="-410543540" Left="0" Top="139" Right="1920" Bottom="4624" />
+										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//body[contains(., &apos;Dashboard&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[contains(@class, &apos;p-overflow-hidden&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageYopmailDisposableEmailAddres" Key="{69AA6805-7717-42E9-9EBA-096EBB120FD6}">
@@ -8217,6 +8238,9 @@
 										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=(//div[@role=&apos;button&apos; and @aria-label=&apos;dropdown trigger&apos; and contains(@class, &apos;p-dropdown-trigger&apos;)])[2]" />
+											</Selector>
+											<Selector>
 												<Value Value="//*[name()=&apos;svg&apos;][contains(@class, &apos;p-dropdown-trigger-icon&apos;)]" />
 											</Selector>
 											<Selector>
@@ -8299,7 +8323,7 @@
 										<TypeInfo Item0="{EE9EC53E-F5F2-48E3-B966-AEF0291329DB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="#pn_id_18_0" />
+												<Value Value="xpath=//li[contains(@class, &apos;p-dropdown-item&apos;) and .//span[normalize-space(.)=&apos;10&apos;]]" />
 											</Selector>
 											<Selector>
 												<Value Value="//li[.=&apos;10&apos;]" />
@@ -9553,6 +9577,7 @@
 					</Child>
 					<Child Name="textnodeNotifications" Owner="{07B2D352-9254-4C16-880B-BDA8440691B7}" />
 				</Child>
+				<Child Name="textnodeDashboard" Owner="{8DD32861-FB6E-4348-8D90-877EE6A6A437}" />
 			</Child>
 			<Child Name="pageYopmailDisposableEmailAddres" Owner="{69AA6805-7717-42E9-9EBA-096EBB120FD6}">
 				<Child Name="formF" Owner="{FEEF3FF1-740F-4833-A556-CE95E1F85D63}">

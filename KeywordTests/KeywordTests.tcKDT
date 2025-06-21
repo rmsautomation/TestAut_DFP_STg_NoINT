@@ -5,7 +5,7 @@
 			<folder name="HUB">
 				<folder name="HOME">
 					<child name="TC_17_QWYK_280_Hub_Home" key="{4F1A02E3-4F81-4D33-9A48-E3FA50684DBC}" path="TC_17_QWYK_280_Hub_Home.tcKDTest" />
-					<child name="TC_QWYK_9616_NotificationsVerifyPaginationAndSize" key="{701753B4-EE06-4637-AF25-BEB6FAC60CEE}" path="TC_QWYK_9616_NotificationsVerifyPaginationAndSize.tcKDTest" />
+					<child name="TC_60_QWYK_9616_NotificationsVerifyPaginationAndSize" key="{701753B4-EE06-4637-AF25-BEB6FAC60CEE}" path="TC_60_QWYK_9616_NotificationsVerifyPaginationAndSize.tcKDTest" />
 				</folder>
 				<folder name="QUOTATIONS">
 					<child name="TC_1_129_FCLOpen" key="{BFCFBD91-CDCE-4B76-8915-2C3475DE1BCE}" path="TC_1_129_FCLOpen.tcKDTest" />
