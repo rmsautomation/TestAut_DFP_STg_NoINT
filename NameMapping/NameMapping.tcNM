@@ -9691,7 +9691,6 @@
 					<Child Name="textnodeNumber" Owner="{113475B6-7FAD-4097-AFA7-00CEFF96F76D}">
 						<Child Name="textnodeQuo01223" Owner="{32F5EAB2-514F-4A15-83B4-35F2FF335CEA}" />
 					</Child>
-					<Child Name="textnode1To1Of" Owner="{81730892-8A57-436A-AD03-2F294110BC1D}" />
 				</Child>
 				<Child Name="textnodeCreated" Owner="{CC45D29D-DDE2-40A3-B3FC-9A96ED9A1614}" />
 				<Child Name="formChooseYourAccountDetails" Owner="{A2333DFB-ECF0-4F4A-AB67-66E1D2421E4E}">
@@ -9762,6 +9761,7 @@
 				<Child Name="buttonNext" Owner="{767A3238-AC10-4C1C-918E-B135CB4D69FB}" />
 			</Child>
 			<Child Name="page" Owner="{4446B27B-3B48-4590-BB14-A28291F2058B}" />
+			<Child Name="textnode1To1Of" Owner="{81730892-8A57-436A-AD03-2F294110BC1D}" />
 		</Child>
 	</LogicalNodes>
 </Root>
