@@ -69,7 +69,9 @@
 				</Children>
 			</Operation>
 			<Operation Type="{92F2155F-410E-4D93-B7B3-684BA934382B}">
-				<Data />
+				<Data>
+					<CommonData Disabled="True" />
+				</Data>
 				<Children>
 					<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
 						<Data Description="Posts an error to the test log." MessageType="1">
